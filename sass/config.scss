@@ -1,4 +1,3 @@
-
 $bgColor: #ffffff;
 $hrColor: #cccccc;
 $baseLink: #000000;
@@ -22,13 +21,19 @@ $fontFamilyBase: "proxima-nova",sans-serif;
 $fontFamilyAlt: "AmaticSCRegular","sans-serif";
 
 @mixin input-placeholder($color) {
-      &.placeholder {
-        color: $color; 
-        }
-      &:-moz-placeholder {
-        color: $color; 
-        }
-      &::-webkit-input-placeholder {
-        color: $color; 
-        } 
-    }
+  &.placeholder {
+    color: $color; 
+  }
+  &:-moz-placeholder {
+    color: $color; 
+  }
+  &::-webkit-input-placeholder {
+    color: $color; 
+  } 
+}
+
+@mixin image-div($imageAddress) {
+	background-image: image-url($imageAddress);
+	width: image-width($imageAddress);
+    height: image-height($imageAddress);
+}

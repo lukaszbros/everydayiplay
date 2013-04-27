@@ -70,16 +70,13 @@ header {
     $headerHeight: 70px;
     height: $headerHeight;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     #top_bar {       
         #logo_header {
         	margin-top: 10px;
             float:left;
-            $headerLogoImageUrl: 'main/logo_header.png';
-            background-image: image-url($headerLogoImageUrl);
-            width: image-width($headerLogoImageUrl);
-            height: image-height($headerLogoImageUrl);
+          	@include image-div('main/logo_header.png');
         }
         #menu {
           	float:right;

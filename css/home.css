@@ -1,0 +1,38 @@
+/* line 3, ../sass/home.scss */
+#main_content {
+  margin-top: 70px;
+}
+
+/* line 7, ../sass/home.scss */
+#company {
+  background-image: url('/everydayiplay/img/main/bg-photo1.jpg?1367091518');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
+}
+/* line 13, ../sass/home.scss */
+#company #logo {
+  background-image: url('/everydayiplay/img/main/logo.png?1367091519');
+  width: 523px;
+  height: 309px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+/* line 19, ../sass/home.scss */
+#company #viking {
+  background-image: url('/everydayiplay/img/main/viking.png?1367091520');
+  width: 530px;
+  height: 287px;
+  margin: auto;
+  position: relative;
+  bottom: -145px;
+}
+
+/* line 27, ../sass/home.scss */
+#about {
+  background-image: url('/everydayiplay/img/main/wood_pattern.png?1367091520');
+  height: 750px;
+  width: 100%;
+}

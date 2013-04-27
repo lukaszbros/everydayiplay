@@ -1,1 +1,31 @@
 @import "config";
+
+#main_content {
+	margin-top:70px;
+}
+
+#company {
+	background-image: image-url('main/bg-photo1.jpg');
+	background-position:center top;
+	background-repeat:no-repeat; 
+	height: 680px;
+	width: 100%;
+	#logo {		
+        @include image-div('main/logo.png');
+        margin: auto;
+        position: relative;
+        top: 30px;
+	}
+	#viking {		
+        @include image-div('main/viking.png');
+        margin: auto;
+        position: relative;
+        bottom: -145px;
+	}
+}
+
+#about {
+	background-image: image-url('main/wood_pattern.png');	
+	height: 750px;
+	width: 100%;
+}
