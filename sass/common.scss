@@ -1,10 +1,3 @@
-/*
-  Welcome to Compass.
-  In this file you should write your main styles. (or centralize your imports)
-  Import this file using the following HTML or equivalent:
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-*/
-
 @import "config";
 
 html {
@@ -57,6 +50,7 @@ textarea, input {
 .container {
 	width: $containerBase;
 	margin: auto;
+    overflow: hidden;
 	@media screen and (max-width: $breakBase) {
     	width: 98%;
     	margin-left: 1%;
@@ -64,8 +58,13 @@ textarea, input {
   	}	
 }
 
+.white {
+	color: #ffffff;
+}
+
 
 header {
+	z-index:10;
     background-color: $headerGrey;
     $headerHeight: 70px;
     height: $headerHeight;

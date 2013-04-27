@@ -95,16 +95,16 @@ textarea {
    ========================================================================== */
 @font-face {
   font-family: 'AmaticSCRegular';
-  src: url("AmaticSC-Regular-webfont.eot");
-  src: url("AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("AmaticSC-Regular-webfont.woff") format("woff"), url("AmaticSC-Regular-webfont.ttf") format("truetype"), url("AmaticSC-Regular-webfont.svg#AmaticSCRegular") format("svg");
+  src: url("../font/AmaticSC-Regular-webfont.eot");
+  src: url("../font/AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/AmaticSC-Regular-webfont.woff") format("woff"), url("../font/AmaticSC-Regular-webfont.ttf") format("truetype"), url("../font/AmaticSC-Regular-webfont.svg#AmaticSCRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AmaticBold';
-  src: url("Amatic-Bold-webfont.eot");
-  src: url("Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("Amatic-Bold-webfont.woff") format("woff"), url("Amatic-Bold-webfont.ttf") format("truetype"), url("Amatic-Bold-webfont.svg#AmaticBold") format("svg");
+  src: url("../font/Amatic-Bold-webfont.eot");
+  src: url("../font/Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Amatic-Bold-webfont.woff") format("woff"), url("../font/Amatic-Bold-webfont.ttf") format("truetype"), url("../font/Amatic-Bold-webfont.svg#AmaticBold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -222,18 +222,12 @@ textarea {
   background-position: 0 -1108px;
 }
 
-/*
-  Welcome to Compass.
-  In this file you should write your main styles. (or centralize your imports)
-  Import this file using the following HTML or equivalent:
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-*/
-/* line 10, ../sass/common.scss */
+/* line 3, ../sass/common.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 14, ../sass/common.scss */
+/* line 7, ../sass/common.scss */
 body {
   background: white;
   font-family: "proxima-nova", sans-serif;
@@ -241,21 +235,21 @@ body {
   font-weight: 300;
 }
 
-/* line 21, ../sass/common.scss */
+/* line 14, ../sass/common.scss */
 a {
   color: black;
 }
-/* line 23, ../sass/common.scss */
+/* line 16, ../sass/common.scss */
 a:hover {
   color: #333333;
 }
 
-/* line 28, ../sass/common.scss */
+/* line 21, ../sass/common.scss */
 p {
   font-size: 1.6em;
 }
 
-/* line 32, ../sass/common.scss */
+/* line 25, ../sass/common.scss */
 h1 {
   font-size: 1.5em;
   font-family: "AmaticSCRegular", "sans-serif";
@@ -263,14 +257,14 @@ h1 {
   font-weight: 600;
 }
 
-/* line 38, ../sass/common.scss */
+/* line 31, ../sass/common.scss */
 h2 {
   font-size: 1em;
   margin: 0 0;
   font-weight: 300;
 }
 
-/* line 44, ../sass/common.scss */
+/* line 37, ../sass/common.scss */
 textarea, input {
   outline: none;
   border: 1px solid #cccccc;
@@ -288,7 +282,7 @@ textarea:-moz-placeholder, input:-moz-placeholder {
 textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
   color: #cccccc;
 }
-/* line 49, ../sass/common.scss */
+/* line 42, ../sass/common.scss */
 textarea:focus, input:focus {
   outline: none;
   border: 1px solid #666666;
@@ -307,13 +301,14 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   color: #666666;
 }
 
-/* line 57, ../sass/common.scss */
+/* line 50, ../sass/common.scss */
 .container {
   width: 1128px;
   margin: auto;
+  overflow: hidden;
 }
 @media screen and (max-width: 1128px) {
-  /* line 57, ../sass/common.scss */
+  /* line 50, ../sass/common.scss */
   .container {
     width: 98%;
     margin-left: 1%;
@@ -321,15 +316,21 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   }
 }
 
-/* line 68, ../sass/common.scss */
+/* line 61, ../sass/common.scss */
+.white {
+  color: #ffffff;
+}
+
+/* line 66, ../sass/common.scss */
 header {
+  z-index: 10;
   background-color: #1a1a1a;
   height: 70px;
   width: 100%;
   position: fixed;
   top: 0px;
 }
-/* line 76, ../sass/common.scss */
+/* line 75, ../sass/common.scss */
 header #top_bar #logo_header {
   margin-top: 10px;
   float: left;
@@ -337,20 +338,20 @@ header #top_bar #logo_header {
   width: 37px;
   height: 48px;
 }
-/* line 81, ../sass/common.scss */
+/* line 80, ../sass/common.scss */
 header #top_bar #menu {
   float: right;
   line-height: 70px;
   width: 360px;
 }
-/* line 85, ../sass/common.scss */
+/* line 84, ../sass/common.scss */
 header #top_bar #menu a {
   color: #dddddd;
   text-decoration: none;
   padding-left: 15%;
   font-weight: 600;
 }
-/* line 90, ../sass/common.scss */
+/* line 89, ../sass/common.scss */
 header #top_bar #menu a:hover {
   color: white;
 }
@@ -392,6 +393,68 @@ header #top_bar #menu a:hover {
   background-image: url('/everydayiplay/img/main/wood_pattern.png?1367091520');
   height: 750px;
   width: 100%;
+}
+/* line 31, ../sass/home.scss */
+#about #top_rules {
+  position: relative;
+  margin-top: 50px;
+  font-weight: 600;
+}
+/* line 35, ../sass/home.scss */
+#about #top_rules #rules_vision {
+  font-size: 5em;
+  width: 50%;
+  float: left;
+  line-height: 1;
+}
+/* line 41, ../sass/home.scss */
+#about #top_rules #rules_text {
+  font-size: 1.7em;
+  width: 50%;
+  float: right;
+}
+/* line 47, ../sass/home.scss */
+#about .sticker_container {
+  width: 27%;
+  margin-right: 5%;
+  float: left;
+  line-height: 0.6;
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 54, ../sass/home.scss */
+#about .sticker_container #stay_small_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-1.png?1367091519');
+  width: 281px;
+  height: 333px;
+}
+/* line 57, ../sass/home.scss */
+#about .sticker_container #independent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-2.png?1367091519');
+  width: 314px;
+  height: 363px;
+}
+/* line 60, ../sass/home.scss */
+#about .sticker_container #top_talent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-3.png?1367091519');
+  width: 299px;
+  height: 338px;
+}
+/* line 63, ../sass/home.scss */
+#about .sticker_container .sticker {
+  font-size: 5em;
+  font-family: "AmaticSCRegular", "sans-serif";
+  padding-top: 195px;
+}
+/* line 67, ../sass/home.scss */
+#about .sticker_container .sticker .small {
+  font-size: 0.6em;
+}
+/* line 71, ../sass/home.scss */
+#about .sticker_container .sticker_subtitle {
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 600;
 }
 
 /*

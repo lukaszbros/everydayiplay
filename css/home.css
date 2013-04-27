@@ -36,3 +36,65 @@
   height: 750px;
   width: 100%;
 }
+/* line 31, ../sass/home.scss */
+#about #top_rules {
+  position: relative;
+  margin-top: 50px;
+  font-weight: 600;
+}
+/* line 35, ../sass/home.scss */
+#about #top_rules #rules_vision {
+  font-size: 5em;
+  width: 50%;
+  float: left;
+  line-height: 1;
+}
+/* line 41, ../sass/home.scss */
+#about #top_rules #rules_text {
+  font-size: 1.7em;
+  width: 50%;
+  float: right;
+}
+/* line 47, ../sass/home.scss */
+#about .sticker_container {
+  width: 27%;
+  margin-right: 5%;
+  float: left;
+  line-height: 0.6;
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 54, ../sass/home.scss */
+#about .sticker_container #stay_small_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-1.png?1367091519');
+  width: 281px;
+  height: 333px;
+}
+/* line 57, ../sass/home.scss */
+#about .sticker_container #independent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-2.png?1367091519');
+  width: 314px;
+  height: 363px;
+}
+/* line 60, ../sass/home.scss */
+#about .sticker_container #top_talent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-3.png?1367091519');
+  width: 299px;
+  height: 338px;
+}
+/* line 63, ../sass/home.scss */
+#about .sticker_container .sticker {
+  font-size: 5em;
+  font-family: "AmaticSCRegular", "sans-serif";
+  padding-top: 195px;
+}
+/* line 67, ../sass/home.scss */
+#about .sticker_container .sticker .small {
+  font-size: 0.6em;
+}
+/* line 71, ../sass/home.scss */
+#about .sticker_container .sticker_subtitle {
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 600;
+}

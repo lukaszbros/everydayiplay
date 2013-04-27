@@ -28,4 +28,50 @@
 	background-image: image-url('main/wood_pattern.png');	
 	height: 750px;
 	width: 100%;
+	#top_rules {
+		position: relative;
+		margin-top: 50px;
+		font-weight: 600;
+		#rules_vision {
+			font-size: 5em;
+			width:50%;
+			float: left;
+			line-height: 1;
+		}
+		#rules_text {
+			font-size: 1.7em;
+			width:50%;
+			float: right;
+		}
+	}
+	.sticker_container {
+		width: 27%;
+		margin-right: 5%;
+		float: left;
+		line-height: 0.6;
+		text-align: center;
+		margin-top: 50px;
+		#stay_small_sticker {
+			@include image-div('main/paper-sheet-1.png');
+		}
+		#independent_sticker {
+			@include image-div('main/paper-sheet-2.png');
+		}
+		#top_talent_sticker {
+			@include image-div('main/paper-sheet-3.png');
+		}
+		.sticker {
+			font-size:5em;
+			font-family: $fontFamilyAlt;
+			padding-top: 195px;
+			.small {
+				font-size:0.6em;
+			}
+		}
+		.sticker_subtitle {
+			font-size: 1em;
+			line-height: 1.4;
+			font-weight: 600;
+		}
+	}
 }
