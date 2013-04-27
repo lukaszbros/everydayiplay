@@ -96,7 +96,14 @@ header {
 
 
 footer {
-	
+	height:110px;
+	background-color: $headerGrey;
+	#logo_footer {
+		@include image-div('main/logo_footer.png');
+		margin: auto;		
+		top: 25px;
+		position: relative;
+	}
 }
     
     

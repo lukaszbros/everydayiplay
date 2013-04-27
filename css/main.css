@@ -356,6 +356,21 @@ header #top_bar #menu a:hover {
   color: white;
 }
 
+/* line 98, ../sass/common.scss */
+footer {
+  height: 110px;
+  background-color: #1a1a1a;
+}
+/* line 101, ../sass/common.scss */
+footer #logo_footer {
+  background-image: url('/everydayiplay/img/main/logo_footer.png?1367091519');
+  width: 239px;
+  height: 42px;
+  margin: auto;
+  top: 25px;
+  position: relative;
+}
+
 /* line 3, ../sass/home.scss */
 #main_content {
   margin-top: 70px;
@@ -455,6 +470,24 @@ header #top_bar #menu a:hover {
   font-size: 1em;
   line-height: 1.4;
   font-weight: 600;
+}
+
+/* line 79, ../sass/home.scss */
+#games {
+  background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367091518');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+}
+
+/* line 87, ../sass/home.scss */
+#contact {
+  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367091518');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
 }
 
 /*

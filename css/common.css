@@ -131,3 +131,18 @@ header #top_bar #menu a {
 header #top_bar #menu a:hover {
   color: white;
 }
+
+/* line 98, ../sass/common.scss */
+footer {
+  height: 110px;
+  background-color: #1a1a1a;
+}
+/* line 101, ../sass/common.scss */
+footer #logo_footer {
+  background-image: url('/everydayiplay/img/main/logo_footer.png?1367091519');
+  width: 239px;
+  height: 42px;
+  margin: auto;
+  top: 25px;
+  position: relative;
+}
