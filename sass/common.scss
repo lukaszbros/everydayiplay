@@ -1,0 +1,230 @@
+/*
+  Welcome to Compass.
+  In this file you should write your main styles. (or centralize your imports)
+  Import this file using the following HTML or equivalent:
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+*/
+
+@import "config";
+
+html {
+	overflow-y: scroll;
+}
+
+body{	
+	background: $bgColor;
+	font-family: $fontFamilyBase;
+	font-style: normal;
+	font-weight: 300;
+}
+
+a {
+  color: $baseGreen;
+  font-style: italic;
+  &:hover {
+    color: $basePink;
+   }
+}
+
+p {
+	font-size: 1.6em;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-family: $fontFamilyLogo;
+	margin: 0 0;
+	font-weight: 600;
+}
+h2 {
+	font-size: 1em;
+	margin: 0 0;
+	font-weight: 300;
+}
+
+textarea, input {
+	outline: none;
+    border: 1px solid $hrColor;
+    color: $hrColor;
+    @include input-placeholder($hrColor);
+	&:focus{
+    	outline: none;
+    	border: 1px solid $darkGrey;
+    	color: $darkGrey;
+    	@include input-placeholder($darkGrey);
+	}	
+}
+
+
+.ux {
+	color: $basePink;
+}
+.design {
+	color: $baseBlue;
+}
+.software {
+	color: $baseGreen;
+}
+
+.container {
+	width: $containerBase;
+	margin: auto;
+	@media screen and (max-width: $breakBase) {
+    	width: 98%;
+    	margin-left: 1%;
+		margin-right: 1%;
+  	}	
+}
+
+.button {
+	font-size: 1.2em;
+	height: 50px;
+	line-height: 50px;
+	width: 168px;
+	display: block;
+	color: $hoverGrey;
+	background-color: $baseGrey;
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	font-family: $fontFamilyLogo;
+	font-weight: 400;
+	font-style: normal;
+	&:hover {
+		background-color: $baseGreen;
+		color: $baseGrey;	
+	}
+}
+
+header {
+	#top_bar {
+		width:100%;
+		#color1, #color2, #color3 {
+			height: 6px;
+			float: left;	
+		}
+		#color1 {
+			width: 45%;
+			background-color: $baseGreen;	
+		}
+		#color2 {
+			width: 35%;
+			background-color: $baseBlue;	
+		}
+		#color3 {
+			width: 20%;
+			background-color: $basePink;
+		}
+	}
+	
+	#title_bar {	
+		height: 75px;	
+		position: relative;
+		font-family: $fontFamilyLogo;
+  		#logo, #menu {  			
+			position: absolute;
+			bottom: 10px;	
+  		}
+		#logo{
+			left: 0;
+			width: 360px;
+			font-size:2em;
+			font-weight: 700;
+			cursor: pointer; 		
+			span { 
+				font-weight: 300;
+				font-size:0.8em;
+				margin-left:1%;
+				cursor: pointer;
+			}
+			.subpage {
+				font-size:1em;
+				font-weight: 700;
+				color: $hrColor;
+			}
+			@media screen and (max-width: $breakLogo) {
+    			width: 300px;
+    			font-size: 1.5em;
+  			}	
+		}
+		#menu {
+			right: 0;
+			width: 270px;
+			font-size: 1em;
+			font-weight: 700;
+			a {
+				margin-left: 10%;
+				color: $baseDark;
+				text-decoration: none;
+				font-style: normal;
+				&:nth-child(1):hover {
+					color: $basePink
+				}
+				&:nth-child(2):hover {
+					color: $baseBlue
+				}
+				&:nth-child(3):hover {
+					color: $baseGreen
+				}				
+			}
+		}
+		@media screen and (max-width: $breakBaseMenu) {
+			height: 125px;
+  			#logo, #menu {
+  				position: absolute;
+  				left:inherit;
+  				right:inherit;
+  				text-align:center; 
+  				/*left: 50%;*/
+  			}
+  			#logo { 
+  				top: 21px;			
+  			}
+  			#menu {
+  				top: 85px;  			
+  			}
+  			.absolut-center{
+  				position: relative;
+  				/*left: -50%;*/
+  			}
+			
+		}
+	}	
+}
+
+#canvasloader-container {
+	position: relative;
+	top: 50px;	
+	width: 100px;
+	margin: auto;
+}
+
+footer {
+	clear:both;
+   	height:120px;
+   	width: 100%;
+	padding-top: 220px;
+   	#footer_content {
+   		width:200px;
+   		margin:auto;
+   		text-align:center;
+   		color: $footerGrey;
+   		a {
+   			height: 26px;
+   			width: 26px;
+   			display: inline-block;
+   			margin: 0 1px 0 1px;
+   		}
+  		p {
+  			font-size: 1.5em;
+  			-webkit-margin-before: 0.1em;
+			-webkit-margin-after: 0.5em;
+  		}
+  		#rights {
+  			font-family: $fontFamilyLogo;
+  			font-size: 0.85em;
+  		}
+   	}
+}
+    
+    
