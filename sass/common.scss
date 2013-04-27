@@ -60,13 +60,42 @@ textarea, input {
 	@media screen and (max-width: $breakBase) {
     	width: 98%;
     	margin-left: 1%;
-		margin-right: 1%;
+		  margin-right: 1%;
   	}	
 }
 
 
 header {
-	
+    background-color: $headerGrey;
+    $headerHeight: 70px;
+    height: $headerHeight;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    #top_bar {       
+        #logo_header {
+        	margin-top: 10px;
+            float:left;
+            $headerLogoImageUrl: 'main/logo_header.png';
+            background-image: image-url($headerLogoImageUrl);
+            width: image-width($headerLogoImageUrl);
+            height: image-height($headerLogoImageUrl);
+        }
+        #menu {
+          	float:right;
+          	line-height: $headerHeight;
+          	width: 32%;
+          	a {
+          		color: $headerLink;
+          		text-decoration: none;
+          		padding-left: 15%;
+          		font-weight: 600;
+          		&:hover {
+          			color: $headerLinkHover;
+          		}
+          	}
+        }
+    }
 }
 
 

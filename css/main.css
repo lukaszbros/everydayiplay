@@ -114,7 +114,7 @@ textarea {
    ========================================================================== */
 /* line 114, buttons/*.png */
 .buttons-sprite, .buttons-apps_store, .buttons-apps_store_hoover, .buttons-contact_us, .buttons-contact_us_hoover, .buttons-facebook, .buttons-facebook_hoover, .buttons-google, .buttons-google_hoover, .buttons-job, .buttons-job_hoover {
-  background: url('/tribity2/img/buttons-sf9c2406299.png') no-repeat;
+  background: url('/everydayiplay/img/buttons-sf9c2406299.png') no-repeat;
 }
 
 /* line 60, c:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -169,7 +169,7 @@ textarea {
 
 /* line 114, buttons_mobile/*.png */
 .buttons_mobile-sprite, .buttons_mobile-apps_store, .buttons_mobile-apps_store_hoover, .buttons_mobile-contact_us, .buttons_mobile-contact_us_hoover, .buttons_mobile-facebook, .buttons_mobile-facebook_hoover, .buttons_mobile-google, .buttons_mobile-google_hoover, .buttons_mobile-job, .buttons_mobile-job_hoover {
-  background: url('/tribity2/img/buttons_mobile-s9e9523e8e5.png') no-repeat;
+  background: url('/everydayiplay/img/buttons_mobile-s9e9523e8e5.png') no-repeat;
 }
 
 /* line 60, c:/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -276,15 +276,15 @@ textarea, input {
   border: 1px solid #cccccc;
   color: #cccccc;
 }
-/* line 23, ../sass/config.scss */
+/* line 25, ../sass/config.scss */
 textarea.placeholder, input.placeholder {
   color: #cccccc;
 }
-/* line 26, ../sass/config.scss */
+/* line 28, ../sass/config.scss */
 textarea:-moz-placeholder, input:-moz-placeholder {
   color: #cccccc;
 }
-/* line 29, ../sass/config.scss */
+/* line 31, ../sass/config.scss */
 textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
   color: #cccccc;
 }
@@ -294,15 +294,15 @@ textarea:focus, input:focus {
   border: 1px solid #666666;
   color: #666666;
 }
-/* line 23, ../sass/config.scss */
+/* line 25, ../sass/config.scss */
 textarea:focus.placeholder, input:focus.placeholder {
   color: #666666;
 }
-/* line 26, ../sass/config.scss */
+/* line 28, ../sass/config.scss */
 textarea:focus:-moz-placeholder, input:focus:-moz-placeholder {
   color: #666666;
 }
-/* line 29, ../sass/config.scss */
+/* line 31, ../sass/config.scss */
 textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholder {
   color: #666666;
 }
@@ -321,6 +321,40 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   }
 }
 
+/* line 68, ../sass/common.scss */
+header {
+  background-color: #1a1a1a;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+/* line 76, ../sass/common.scss */
+header #top_bar #logo_header {
+  margin-top: 10px;
+  float: left;
+  background-image: url('/everydayiplay/img/main/logo_header.png?1367046468');
+  width: 37px;
+  height: 48px;
+}
+/* line 84, ../sass/common.scss */
+header #top_bar #menu {
+  float: right;
+  line-height: 70px;
+  width: 32%;
+}
+/* line 88, ../sass/common.scss */
+header #top_bar #menu a {
+  color: #dddddd;
+  text-decoration: none;
+  padding-left: 15%;
+  font-weight: 600;
+}
+/* line 93, ../sass/common.scss */
+header #top_bar #menu a:hover {
+  color: white;
+}
+
 /*
   Welcome to Compass. Use this file to define print styles.
   Import this file using the following HTML or equivalent:
@@ -332,7 +366,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
 /*
  * Image replacement
  */
-/* line 145, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -341,7 +375,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   *text-indent: -9999px;
 }
 
-/* line 153, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -352,7 +386,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 164, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -361,7 +395,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 173, ../sass/main.scss */
+/* line 175, ../sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -377,7 +411,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 190, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -391,7 +425,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 203, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -407,7 +441,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 220, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -416,7 +450,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   /* 2 */
 }
 
-/* line 225, ../sass/main.scss */
+/* line 227, ../sass/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -425,7 +459,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 234, ../sass/main.scss */
+/* line 236, ../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -446,7 +480,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 261, ../sass/main.scss */
+  /* line 263, ../sass/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -455,18 +489,18 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
     text-shadow: none !important;
   }
 
-  /* line 269, ../sass/main.scss */
+  /* line 271, ../sass/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 273, ../sass/main.scss */
+  /* line 275, ../sass/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 277, ../sass/main.scss */
+  /* line 279, ../sass/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -474,33 +508,33 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 287, ../sass/main.scss */
+  /* line 289, ../sass/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 292, ../sass/main.scss */
+  /* line 294, ../sass/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 297, ../sass/main.scss */
+  /* line 299, ../sass/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 302, ../sass/main.scss */
+  /* line 304, ../sass/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 306, ../sass/main.scss */
+  /* line 308, ../sass/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -509,7 +543,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
     margin: 0.5cm;
 }
 
-  /* line 316, ../sass/main.scss */
+  /* line 318, ../sass/main.scss */
   p,
   h2,
   h3 {
@@ -517,7 +551,7 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
     widows: 3;
   }
 
-  /* line 322, ../sass/main.scss */
+  /* line 324, ../sass/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

@@ -52,15 +52,15 @@ textarea, input {
   border: 1px solid #cccccc;
   color: #cccccc;
 }
-/* line 23, ../sass/config.scss */
+/* line 25, ../sass/config.scss */
 textarea.placeholder, input.placeholder {
   color: #cccccc;
 }
-/* line 26, ../sass/config.scss */
+/* line 28, ../sass/config.scss */
 textarea:-moz-placeholder, input:-moz-placeholder {
   color: #cccccc;
 }
-/* line 29, ../sass/config.scss */
+/* line 31, ../sass/config.scss */
 textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
   color: #cccccc;
 }
@@ -70,15 +70,15 @@ textarea:focus, input:focus {
   border: 1px solid #666666;
   color: #666666;
 }
-/* line 23, ../sass/config.scss */
+/* line 25, ../sass/config.scss */
 textarea:focus.placeholder, input:focus.placeholder {
   color: #666666;
 }
-/* line 26, ../sass/config.scss */
+/* line 28, ../sass/config.scss */
 textarea:focus:-moz-placeholder, input:focus:-moz-placeholder {
   color: #666666;
 }
-/* line 29, ../sass/config.scss */
+/* line 31, ../sass/config.scss */
 textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholder {
   color: #666666;
 }
@@ -95,4 +95,38 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
     margin-left: 1%;
     margin-right: 1%;
   }
+}
+
+/* line 68, ../sass/common.scss */
+header {
+  background-color: #1a1a1a;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+/* line 76, ../sass/common.scss */
+header #top_bar #logo_header {
+  margin-top: 10px;
+  float: left;
+  background-image: url('/everydayiplay/img/main/logo_header.png?1367046468');
+  width: 37px;
+  height: 48px;
+}
+/* line 84, ../sass/common.scss */
+header #top_bar #menu {
+  float: right;
+  line-height: 70px;
+  width: 32%;
+}
+/* line 88, ../sass/common.scss */
+header #top_bar #menu a {
+  color: #dddddd;
+  text-decoration: none;
+  padding-left: 15%;
+  font-weight: 600;
+}
+/* line 93, ../sass/common.scss */
+header #top_bar #menu a:hover {
+  color: white;
 }
