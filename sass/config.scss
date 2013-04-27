@@ -1,19 +1,10 @@
-$baseGreen: #00c376;
-$baseBlue: #00aed9;
-$basePink: #e62799;
-$baseDark: #000000;
-
-$baseGrey: #333333;
-$darkGrey: #666666;
-$lightGrey: #aaaaaa;
-$opacityGrey: #dddddd;
-$footerGrey: #999999;
-$topBarGrey: #e6e6e6;
-$hoverGrey: #eeeeee;
 
 $bgColor: #ffffff;
-
 $hrColor: #cccccc;
+$baseLink: #000000;
+$baseLinkHover: #333333;
+$baseGrey: #333333;
+$darkGrey: #666666;
 
 $containerBase: 1128px;
 $breakBase: 1128px;
@@ -23,8 +14,8 @@ $breakBaseMenu: 700px;
 $breakBaseWork: 700px;
 $breakLogo: 400px;
 
-$fontFamilyBase: "chaparral-pro",sans-serif;
-$fontFamilyLogo: "proxima-nova",sans-serif; 
+$fontFamilyBase: "proxima-nova",sans-serif;
+$fontFamilyAlt: "AmaticSCRegular","sans-serif";
 
 @mixin input-placeholder($color) {
       &.placeholder {

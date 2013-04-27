@@ -92,27 +92,47 @@ textarea {
 }
 
 /* ==========================================================================
+   Fonts
+   ========================================================================== */
+  
+@font-face {
+    font-family: 'AmaticSCRegular';
+    src: url('AmaticSC-Regular-webfont.eot');
+    src: url('AmaticSC-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('AmaticSC-Regular-webfont.woff') format('woff'),
+         url('AmaticSC-Regular-webfont.ttf') format('truetype'),
+         url('AmaticSC-Regular-webfont.svg#AmaticSCRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmaticBold';
+    src: url('Amatic-Bold-webfont.eot');
+    src: url('Amatic-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amatic-Bold-webfont.woff') format('woff'),
+         url('Amatic-Bold-webfont.ttf') format('truetype'),
+         url('Amatic-Bold-webfont.svg#AmaticBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-@import "icons/*.png";
-@include all-icons-sprites;
-@import "work/*.png";
-@include all-work-sprites;
-@import "company/team/*.png";
-@include all-team-sprites;
+@import "buttons/*.png";
+@include all-buttons-sprites;
+@import "buttons_mobile/*.png";
+@include all-buttons_mobile-sprites;
 
 @import "common";
 
-@import "home";
-
-@import "work";
-
-@import "company";
-
-@import "contact";
-
 @import "print";
+
+
 
 /* ==========================================================================
    Helper classes
