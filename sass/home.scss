@@ -82,6 +82,43 @@
 	background-repeat:no-repeat; 
 	height: 750px;
 	width: 100%;
+	#game_logo {
+		@include image-div('main/game-logo.png');
+		background-position: center top;
+		background-repeat: no-repeat; 
+		float: left;
+	}
+	#tablet {
+		@include image-div('main/ipad.png');
+		background-position: right top;
+		background-repeat: no-repeat; 
+		float: left;
+	}
+	.buttons-apps_store {
+		width: image-width('buttons/apps_store.png');
+    	height: image-height('buttons/apps_store.png'); 
+	}
+	.buttons-google {
+		width: image-width('buttons/google.png');
+    	height: image-height('buttons/google.png'); 
+	}
+	.buttons-facebook {
+		width: image-width('buttons/facebook.png');
+    	height: image-height('buttons/facebook.png'); 
+	}
+	#schetches {
+		float: right;
+		width: 30%;
+		margin-top: 80px;
+		#slideshow {
+			@include image-div('main/slide1.png');
+		}
+		#description {
+			font-size: 1.3em;
+			font-weight: 600;
+			line-height: 1.2;
+		}
+	}
 }
 
 #contact {
@@ -90,22 +127,38 @@
 	background-repeat:no-repeat; 
 	height: 750px;
 	width: 100%;
+	overflow: hidden; 
+	z-index: 1;
+	position: relative;
 	#get_in_touch {		
         @include image-div('main/hanging_note.png');
         margin: auto;
-        position: relative;
-        top: 30px;
+        #get_in_touch_text {
+        	text-align: center;
+        	font-family: $fontFamilyAlt;
+        	font-size: 2em;
+        	font-weight: 600;
+        	position: relative;
+			top: 195px;			
+    		line-height: 1;
+        	#get_in_touch_title {
+        		font-size: 3em;
+        		line-height: 1.4;
+        	}
+        }
 	}
 	#contact_us {		
         width: image-width('buttons/contact_us.png');
     	height: image-height('buttons/contact_us.png');
         margin: auto;
         display: block;
+        margin-top: 10px;
 	}
 	#job {		
         width: image-width('buttons/job.png');
     	height: image-height('buttons/job.png');
         margin: auto;
         display: block;
+        margin-top: 10px;
 	}
 }

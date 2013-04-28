@@ -13,8 +13,10 @@ body{
 
 a {
   color: $baseLink;
+  text-decoration: none;
   &:hover {
     color: $baseLinkHover;
+    text-decoration: underline;
    }
 }
 
