@@ -30,27 +30,36 @@
 	width: 100%;
 	#top_rules {
 		position: relative;
+		margin: auto;
+		width: 1032px;
 		margin-top: 50px;
 		font-weight: 600;
 		#rules_vision {
-			font-size: 5em;
+			font-size: 4.5em;
 			width:50%;
 			float: left;
 			line-height: 1;
+			font-weight: 900;
 		}
 		#rules_text {
 			font-size: 1.7em;
 			width:50%;
 			float: right;
+			margin-top: 22px;
 		}
+	}
+	#stay_small_sticker_container {
+		margin-top: 57px;
+	}
+	#independent_sticker_container {
+		margin-top: 25px;
 	}
 	.sticker_container {
 		width: 27%;
-		margin-right: 5%;
+		margin: 50px 3% 0 3%;
 		float: left;
 		line-height: 0.6;
-		text-align: center;
-		margin-top: 50px;
+		text-align: center;		
 		#stay_small_sticker {
 			@include image-div('main/paper-sheet-1.png');
 		}
@@ -59,6 +68,12 @@
 		}
 		#top_talent_sticker {
 			@include image-div('main/paper-sheet-3.png');
+		}
+		#stay_small {
+			padding-left: 9px;
+		}
+		#independent {
+			padding-top: 225px;
 		}
 		.sticker {
 			font-size:5em;
@@ -82,6 +97,7 @@
 	background-repeat:no-repeat; 
 	height: 750px;
 	width: 100%;
+	position: relative;
 	#game_logo {
 		@include image-div('main/game-logo.png');
 		background-position: center top;
@@ -93,7 +109,7 @@
 		background-position: right top;
 		background-repeat: no-repeat; 
 		float: left;
-	}
+	}	
 	.buttons-apps_store {
 		width: image-width('buttons/apps_store.png');
     	height: image-height('buttons/apps_store.png'); 
@@ -117,6 +133,14 @@
 			font-size: 1.3em;
 			font-weight: 600;
 			line-height: 1.2;
+		}
+	}
+	#shops {
+		position: absolute;
+		top: 660px;
+		a {
+			display: inline-block;
+		    margin: 0 5px 0 5px;
 		}
 	}
 }

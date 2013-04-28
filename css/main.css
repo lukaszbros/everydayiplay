@@ -1,1 +1,813 @@
-html,button,input,select,textarea{color:#333}body{font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:3em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}@font-face{font-family:'AmaticSCRegular';src:url("../font/AmaticSC-Regular-webfont.eot");src:url("../font/AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"),url("../font/AmaticSC-Regular-webfont.woff") format("woff"),url("../font/AmaticSC-Regular-webfont.ttf") format("truetype"),url("../font/AmaticSC-Regular-webfont.svg#AmaticSCRegular") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'AmaticBold';src:url("../font/Amatic-Bold-webfont.eot");src:url("../font/Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"),url("../font/Amatic-Bold-webfont.woff") format("woff"),url("../font/Amatic-Bold-webfont.ttf") format("truetype"),url("../font/Amatic-Bold-webfont.svg#AmaticBold") format("svg");font-weight:normal;font-style:normal}.buttons-sprite,.buttons-apps_store,.buttons-contact_us,.buttons-facebook,.buttons-google,.buttons-job{background:url('/img/buttons-s95bad4fa8a.png') no-repeat}.buttons-apps_store{background-position:0 -162px}.buttons-apps_store:hover,.buttons-apps_store.apps_store_hover,.buttons-apps_store.apps_store-hover{background-position:0 -324px}.buttons-contact_us{background-position:0 -591px}.buttons-contact_us:hover,.buttons-contact_us.contact_us_hover,.buttons-contact_us.contact_us-hover{background-position:0 -801px}.buttons-facebook{background-position:0 -243px}.buttons-facebook:hover,.buttons-facebook.facebook_hover,.buttons-facebook.facebook-hover{background-position:0 -405px}.buttons-google{background-position:0 0}.buttons-google:hover,.buttons-google.google_hover,.buttons-google.google-hover{background-position:0 -81px}.buttons-job{background-position:0 -486px}.buttons-job:hover,.buttons-job.job_hover,.buttons-job.job-hover{background-position:0 -696px}.buttons_mobile-sprite,.buttons_mobile-apps_store,.buttons_mobile-apps_store_hoover,.buttons_mobile-contact_us,.buttons_mobile-contact_us_hoover,.buttons_mobile-facebook,.buttons_mobile-facebook_hoover,.buttons_mobile-google,.buttons_mobile-google_hoover,.buttons_mobile-job,.buttons_mobile-job_hoover{background:url('/img/buttons_mobile-s9e9523e8e5.png') no-repeat}.buttons_mobile-apps_store{background-position:0 -306px}.buttons_mobile-apps_store_hoover{background-position:0 -459px}.buttons_mobile-contact_us{background-position:0 -918px}.buttons_mobile-contact_us_hoover{background-position:0 -1488px}.buttons_mobile-facebook{background-position:0 -612px}.buttons_mobile-facebook_hoover{background-position:0 -765px}.buttons_mobile-google{background-position:0 0}.buttons_mobile-google_hoover{background-position:0 -153px}.buttons_mobile-job{background-position:0 -1298px}.buttons_mobile-job_hoover{background-position:0 -1108px}html{overflow-y:scroll}body{background:#fff;font-family:"proxima-nova",sans-serif;font-style:normal;font-weight:300}a{color:#000;text-decoration:none}a:hover{color:#333;text-decoration:underline}p{font-size:1.6em}h1{font-size:1.5em;font-family:"AmaticSCRegular","sans-serif";margin:0 0;font-weight:600}h2{font-size:1em;margin:0 0;font-weight:300}textarea,input{outline:none;border:1px solid #ccc;color:#ccc}textarea.placeholder,input.placeholder{color:#ccc}textarea:-moz-placeholder,input:-moz-placeholder{color:#ccc}textarea::-webkit-input-placeholder,input::-webkit-input-placeholder{color:#ccc}textarea:focus,input:focus{outline:none;border:1px solid #666;color:#666}textarea:focus.placeholder,input:focus.placeholder{color:#666}textarea:focus:-moz-placeholder,input:focus:-moz-placeholder{color:#666}textarea:focus::-webkit-input-placeholder,input:focus::-webkit-input-placeholder{color:#666}.container{width:1250px;margin:auto;overflow:hidden}@media screen and (max-width: 1250px){.container{width:98%;margin-left:1%;margin-right:1%}}.white{color:#ffffff}header{z-index:10;background-color:#1a1a1a;height:70px;width:100%;position:fixed;top:0px}header #top_bar #logo_header{margin-top:10px;float:left;background-image:url('/img/main/logo_header.png?1367091519');width:37px;height:48px}header #top_bar #menu{float:right;line-height:70px;width:360px}header #top_bar #menu a{color:#ddd;text-decoration:none;padding-left:15%;font-weight:600}header #top_bar #menu a:hover{color:#fff}footer{height:110px;background-color:#1a1a1a}footer #logo_footer{background-image:url('/img/main/logo_footer.png?1367091519');width:239px;height:42px;margin:auto;top:25px;position:relative}#main_content{margin-top:70px}#company{background-image:url('/img/main/bg-photo1.jpg?1367091518');background-position:center top;background-repeat:no-repeat;height:680px;width:100%}#company #logo{background-image:url('/img/main/logo.png?1367091519');width:523px;height:309px;margin:auto;position:relative;top:30px}#company #viking{background-image:url('/img/main/viking.png?1367091520');width:530px;height:287px;margin:auto;position:relative;bottom:-145px}#about{background-image:url('/img/main/wood_pattern.png?1367091520');height:750px;width:100%}#about #top_rules{position:relative;margin-top:50px;font-weight:600}#about #top_rules #rules_vision{font-size:5em;width:50%;float:left;line-height:1}#about #top_rules #rules_text{font-size:1.7em;width:50%;float:right}#about .sticker_container{width:27%;margin-right:5%;float:left;line-height:0.6;text-align:center;margin-top:50px}#about .sticker_container #stay_small_sticker{background-image:url('/img/main/paper-sheet-1.png?1367091519');width:281px;height:333px}#about .sticker_container #independent_sticker{background-image:url('/img/main/paper-sheet-2.png?1367091519');width:314px;height:363px}#about .sticker_container #top_talent_sticker{background-image:url('/img/main/paper-sheet-3.png?1367091519');width:299px;height:338px}#about .sticker_container .sticker{font-size:5em;font-family:"AmaticSCRegular","sans-serif";padding-top:195px}#about .sticker_container .sticker .small{font-size:0.6em}#about .sticker_container .sticker_subtitle{font-size:1em;line-height:1.4;font-weight:600}#games{background-image:url('/img/main/bg-photo5.jpg?1367091518');background-position:center top;background-repeat:no-repeat;height:750px;width:100%}#games #game_logo{background-image:url('/img/main/game-logo.png?1367091518');width:685px;height:362px;background-position:center top;background-repeat:no-repeat;float:left}#games #tablet{background-image:url('/img/main/ipad.png?1367091519');width:769px;height:582px;background-position:right top;background-repeat:no-repeat;float:left}#games .buttons-apps_store{width:222px;height:81px}#games .buttons-google{width:222px;height:81px}#games .buttons-facebook{width:222px;height:81px}#games #schetches{float:right;width:30%;margin-top:80px}#games #schetches #slideshow{background-image:url('/img/main/slide1.png?1367091519');width:383px;height:383px}#games #schetches #description{font-size:1.3em;font-weight:600;line-height:1.2}#contact{background-image:url('/img/main/bg-photo6.jpg?1367091518');background-position:center top;background-repeat:no-repeat;height:750px;width:100%;overflow:hidden;z-index:1;position:relative}#contact #get_in_touch{background-image:url('/img/main/hanging_note.png?1367156282');width:513px;height:504px;margin:auto}#contact #get_in_touch #get_in_touch_text{text-align:center;font-family:"AmaticSCRegular","sans-serif";font-size:2em;font-weight:600;position:relative;top:195px;line-height:1}#contact #get_in_touch #get_in_touch_text #get_in_touch_title{font-size:3em;line-height:1.4}#contact #contact_us{width:264px;height:105px;margin:auto;display:block;margin-top:10px}#contact #job{width:264px;height:105px;margin:auto;display:block;margin-top:10px}.ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}.ir:before{content:"";display:block;width:0;height:150%}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 19, ../sass/main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #333333;
+}
+
+/* line 23, ../sass/main.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 34, ../sass/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 39, ../sass/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 48, ../sass/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 3em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 61, ../sass/main.scss */
+img {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 69, ../sass/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 79, ../sass/main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+/* line 87, ../sass/main.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+@font-face {
+  font-family: 'AmaticSCRegular';
+  src: url("../font/AmaticSC-Regular-webfont.eot");
+  src: url("../font/AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/AmaticSC-Regular-webfont.woff") format("woff"), url("../font/AmaticSC-Regular-webfont.ttf") format("truetype"), url("../font/AmaticSC-Regular-webfont.svg#AmaticSCRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AmaticBold';
+  src: url("../font/Amatic-Bold-webfont.eot");
+  src: url("../font/Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Amatic-Bold-webfont.woff") format("woff"), url("../font/Amatic-Bold-webfont.ttf") format("truetype"), url("../font/Amatic-Bold-webfont.svg#AmaticBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* line 114, buttons/*.png */
+.buttons-sprite, .buttons-apps_store, .buttons-contact_us, .buttons-facebook, .buttons-google, .buttons-job {
+  background: url('/everydayiplay/img/buttons-s95bad4fa8a.png') no-repeat;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-apps_store {
+  background-position: 0 -162px;
+}
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-apps_store:hover, .buttons-apps_store.apps_store_hover, .buttons-apps_store.apps_store-hover {
+  background-position: 0 -324px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-contact_us {
+  background-position: 0 -591px;
+}
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-contact_us:hover, .buttons-contact_us.contact_us_hover, .buttons-contact_us.contact_us-hover {
+  background-position: 0 -801px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-facebook {
+  background-position: 0 -243px;
+}
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-facebook:hover, .buttons-facebook.facebook_hover, .buttons-facebook.facebook-hover {
+  background-position: 0 -405px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-google {
+  background-position: 0 0;
+}
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-google:hover, .buttons-google.google_hover, .buttons-google.google-hover {
+  background-position: 0 -81px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-job {
+  background-position: 0 -486px;
+}
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-job:hover, .buttons-job.job_hover, .buttons-job.job-hover {
+  background-position: 0 -696px;
+}
+
+/* line 114, buttons_mobile/*.png */
+.buttons_mobile-sprite, .buttons_mobile-apps_store, .buttons_mobile-apps_store_hoover, .buttons_mobile-contact_us, .buttons_mobile-contact_us_hoover, .buttons_mobile-facebook, .buttons_mobile-facebook_hoover, .buttons_mobile-google, .buttons_mobile-google_hoover, .buttons_mobile-job, .buttons_mobile-job_hoover {
+  background: url('/everydayiplay/img/buttons_mobile-s9e9523e8e5.png') no-repeat;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-apps_store {
+  background-position: 0 -306px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-apps_store_hoover {
+  background-position: 0 -459px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-contact_us {
+  background-position: 0 -918px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-contact_us_hoover {
+  background-position: 0 -1488px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-facebook {
+  background-position: 0 -612px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-facebook_hoover {
+  background-position: 0 -765px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-google {
+  background-position: 0 0;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-google_hoover {
+  background-position: 0 -153px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-job {
+  background-position: 0 -1298px;
+}
+
+/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons_mobile-job_hoover {
+  background-position: 0 -1108px;
+}
+
+/* line 3, ../sass/common.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 7, ../sass/common.scss */
+body {
+  background: white;
+  font-family: "proxima-nova", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* line 14, ../sass/common.scss */
+a {
+  color: black;
+  text-decoration: none;
+}
+/* line 17, ../sass/common.scss */
+a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+/* line 23, ../sass/common.scss */
+p {
+  font-size: 1.6em;
+}
+
+/* line 27, ../sass/common.scss */
+h1 {
+  font-size: 1.5em;
+  font-family: "AmaticSCRegular", "sans-serif";
+  margin: 0 0;
+  font-weight: 600;
+}
+
+/* line 33, ../sass/common.scss */
+h2 {
+  font-size: 1em;
+  margin: 0 0;
+  font-weight: 300;
+}
+
+/* line 39, ../sass/common.scss */
+textarea, input {
+  outline: none;
+  border: 1px solid #cccccc;
+  color: #cccccc;
+}
+/* line 24, ../sass/config.scss */
+textarea.placeholder, input.placeholder {
+  color: #cccccc;
+}
+/* line 27, ../sass/config.scss */
+textarea:-moz-placeholder, input:-moz-placeholder {
+  color: #cccccc;
+}
+/* line 30, ../sass/config.scss */
+textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+/* line 44, ../sass/common.scss */
+textarea:focus, input:focus {
+  outline: none;
+  border: 1px solid #666666;
+  color: #666666;
+}
+/* line 24, ../sass/config.scss */
+textarea:focus.placeholder, input:focus.placeholder {
+  color: #666666;
+}
+/* line 27, ../sass/config.scss */
+textarea:focus:-moz-placeholder, input:focus:-moz-placeholder {
+  color: #666666;
+}
+/* line 30, ../sass/config.scss */
+textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholder {
+  color: #666666;
+}
+
+/* line 52, ../sass/common.scss */
+.container {
+  width: 1250px;
+  margin: auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 1250px) {
+  /* line 52, ../sass/common.scss */
+  .container {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+/* line 63, ../sass/common.scss */
+.white {
+  color: #ffffff;
+}
+
+/* line 68, ../sass/common.scss */
+header {
+  z-index: 10;
+  background-color: #1a1a1a;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+/* line 77, ../sass/common.scss */
+header #top_bar #logo_header {
+  margin-top: 10px;
+  float: left;
+  background-image: url('/everydayiplay/img/main/logo_header.png?1367091519');
+  width: 37px;
+  height: 48px;
+}
+/* line 82, ../sass/common.scss */
+header #top_bar #menu {
+  float: right;
+  line-height: 70px;
+  width: 360px;
+}
+/* line 86, ../sass/common.scss */
+header #top_bar #menu a {
+  color: #dddddd;
+  text-decoration: none;
+  padding-left: 15%;
+  font-weight: 600;
+}
+/* line 91, ../sass/common.scss */
+header #top_bar #menu a:hover {
+  color: white;
+}
+
+/* line 100, ../sass/common.scss */
+footer {
+  height: 110px;
+  background-color: #1a1a1a;
+}
+/* line 103, ../sass/common.scss */
+footer #logo_footer {
+  background-image: url('/everydayiplay/img/main/logo_footer.png?1367091519');
+  width: 239px;
+  height: 42px;
+  margin: auto;
+  top: 25px;
+  position: relative;
+}
+
+/* line 3, ../sass/home.scss */
+#main_content {
+  margin-top: 70px;
+}
+
+/* line 7, ../sass/home.scss */
+#company {
+  background-image: url('/everydayiplay/img/main/bg-photo1.jpg?1367091518');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
+}
+/* line 13, ../sass/home.scss */
+#company #logo {
+  background-image: url('/everydayiplay/img/main/logo.png?1367091519');
+  width: 523px;
+  height: 309px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+/* line 19, ../sass/home.scss */
+#company #viking {
+  background-image: url('/everydayiplay/img/main/viking.png?1367091520');
+  width: 530px;
+  height: 287px;
+  margin: auto;
+  position: relative;
+  bottom: -145px;
+}
+
+/* line 27, ../sass/home.scss */
+#about {
+  background-image: url('/everydayiplay/img/main/wood_pattern.png?1367091520');
+  height: 750px;
+  width: 100%;
+}
+/* line 31, ../sass/home.scss */
+#about #top_rules {
+  position: relative;
+  margin: auto;
+  width: 1032px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+/* line 37, ../sass/home.scss */
+#about #top_rules #rules_vision {
+  font-size: 4.5em;
+  width: 50%;
+  float: left;
+  line-height: 1;
+  font-weight: 900;
+}
+/* line 44, ../sass/home.scss */
+#about #top_rules #rules_text {
+  font-size: 1.7em;
+  width: 50%;
+  float: right;
+  margin-top: 22px;
+}
+/* line 51, ../sass/home.scss */
+#about #stay_small_sticker_container {
+  margin-top: 57px;
+}
+/* line 54, ../sass/home.scss */
+#about #independent_sticker_container {
+  margin-top: 25px;
+}
+/* line 57, ../sass/home.scss */
+#about .sticker_container {
+  width: 27%;
+  margin: 50px 3% 0 3%;
+  float: left;
+  line-height: 0.6;
+  text-align: center;
+}
+/* line 63, ../sass/home.scss */
+#about .sticker_container #stay_small_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-1.png?1367091519');
+  width: 281px;
+  height: 333px;
+}
+/* line 66, ../sass/home.scss */
+#about .sticker_container #independent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-2.png?1367091519');
+  width: 314px;
+  height: 363px;
+}
+/* line 69, ../sass/home.scss */
+#about .sticker_container #top_talent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-3.png?1367091519');
+  width: 299px;
+  height: 338px;
+}
+/* line 72, ../sass/home.scss */
+#about .sticker_container #stay_small {
+  padding-left: 9px;
+}
+/* line 75, ../sass/home.scss */
+#about .sticker_container #independent {
+  padding-top: 225px;
+}
+/* line 78, ../sass/home.scss */
+#about .sticker_container .sticker {
+  font-size: 5em;
+  font-family: "AmaticSCRegular", "sans-serif";
+  padding-top: 195px;
+}
+/* line 82, ../sass/home.scss */
+#about .sticker_container .sticker .small {
+  font-size: 0.6em;
+}
+/* line 86, ../sass/home.scss */
+#about .sticker_container .sticker_subtitle {
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* line 94, ../sass/home.scss */
+#games {
+  background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367091518');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+  position: relative;
+}
+/* line 101, ../sass/home.scss */
+#games #game_logo {
+  background-image: url('/everydayiplay/img/main/game-logo.png?1367091518');
+  width: 685px;
+  height: 362px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  float: left;
+}
+/* line 107, ../sass/home.scss */
+#games #tablet {
+  background-image: url('/everydayiplay/img/main/ipad.png?1367091519');
+  width: 769px;
+  height: 582px;
+  background-position: right top;
+  background-repeat: no-repeat;
+  float: left;
+}
+/* line 113, ../sass/home.scss */
+#games .buttons-apps_store {
+  width: 222px;
+  height: 81px;
+}
+/* line 117, ../sass/home.scss */
+#games .buttons-google {
+  width: 222px;
+  height: 81px;
+}
+/* line 121, ../sass/home.scss */
+#games .buttons-facebook {
+  width: 222px;
+  height: 81px;
+}
+/* line 125, ../sass/home.scss */
+#games #schetches {
+  float: right;
+  width: 30%;
+  margin-top: 80px;
+}
+/* line 129, ../sass/home.scss */
+#games #schetches #slideshow {
+  background-image: url('/everydayiplay/img/main/slide1.png?1367091519');
+  width: 383px;
+  height: 383px;
+}
+/* line 132, ../sass/home.scss */
+#games #schetches #description {
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+/* line 138, ../sass/home.scss */
+#games #shops {
+  position: absolute;
+  top: 660px;
+}
+/* line 141, ../sass/home.scss */
+#games #shops a {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+/* line 148, ../sass/home.scss */
+#contact {
+  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367091518');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+/* line 157, ../sass/home.scss */
+#contact #get_in_touch {
+  background-image: url('/everydayiplay/img/main/hanging_note.png?1367156282');
+  width: 513px;
+  height: 504px;
+  margin: auto;
+}
+/* line 160, ../sass/home.scss */
+#contact #get_in_touch #get_in_touch_text {
+  text-align: center;
+  font-family: "AmaticSCRegular", "sans-serif";
+  font-size: 2em;
+  font-weight: 600;
+  position: relative;
+  top: 195px;
+  line-height: 1;
+}
+/* line 168, ../sass/home.scss */
+#contact #get_in_touch #get_in_touch_text #get_in_touch_title {
+  font-size: 3em;
+  line-height: 1.4;
+}
+/* line 174, ../sass/home.scss */
+#contact #contact_us {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
+/* line 181, ../sass/home.scss */
+#contact #job {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+/*
+  Welcome to Compass. Use this file to define print styles.
+  Import this file using the following HTML or equivalent:
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+*/
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 147, ../sass/main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 155, ../sass/main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 166, ../sass/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 175, ../sass/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 192, ../sass/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 205, ../sass/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 222, ../sass/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 227, ../sass/main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 236, ../sass/main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 263, ../sass/main.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 271, ../sass/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 275, ../sass/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 279, ../sass/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 289, ../sass/main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 294, ../sass/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 299, ../sass/main.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 304, ../sass/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 308, ../sass/main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 318, ../sass/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 324, ../sass/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
