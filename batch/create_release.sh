@@ -10,6 +10,7 @@ mkdir release/
 cp --recursive css release/css
 cp --recursive img release/img
 cp --recursive js release/js
+cp --recursive font release/font
 cp *.html release
 cp *.png release
 cp *.html release
