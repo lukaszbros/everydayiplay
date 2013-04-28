@@ -120,7 +120,7 @@ header #top_bar #logo_header {
 header #top_bar #menu {
   float: right;
   line-height: 70px;
-  width: 360px;
+  width: 400px;
 }
 /* line 86, ../sass/common.scss */
 header #top_bar #menu a {
