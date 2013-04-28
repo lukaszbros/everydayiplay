@@ -113,17 +113,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* line 114, buttons/*.png */
-.buttons-sprite, .buttons-apps_store, .buttons-apps_store_hoover, .buttons-contact_us, .buttons-contact_us_hoover, .buttons-facebook, .buttons-facebook_hoover, .buttons-google, .buttons-google_hoover, .buttons-job, .buttons-job_hoover {
-  background: url('/everydayiplay/img/buttons-sf9c2406299.png') no-repeat;
+.buttons-sprite, .buttons-apps_store, .buttons-contact_us, .buttons-facebook, .buttons-google, .buttons-job {
+  background: url('/everydayiplay/img/buttons-s95bad4fa8a.png') no-repeat;
 }
 
 /* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .buttons-apps_store {
   background-position: 0 -162px;
 }
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-apps_store_hoover {
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-apps_store:hover, .buttons-apps_store.apps_store_hover, .buttons-apps_store.apps_store-hover {
   background-position: 0 -324px;
 }
 
@@ -131,9 +130,8 @@ textarea {
 .buttons-contact_us {
   background-position: 0 -591px;
 }
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-contact_us_hoover {
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-contact_us:hover, .buttons-contact_us.contact_us_hover, .buttons-contact_us.contact_us-hover {
   background-position: 0 -801px;
 }
 
@@ -141,9 +139,8 @@ textarea {
 .buttons-facebook {
   background-position: 0 -243px;
 }
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-facebook_hoover {
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-facebook:hover, .buttons-facebook.facebook_hover, .buttons-facebook.facebook-hover {
   background-position: 0 -405px;
 }
 
@@ -151,9 +148,8 @@ textarea {
 .buttons-google {
   background-position: 0 0;
 }
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-google_hoover {
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-google:hover, .buttons-google.google_hover, .buttons-google.google-hover {
   background-position: 0 -81px;
 }
 
@@ -161,9 +157,8 @@ textarea {
 .buttons-job {
   background-position: 0 -486px;
 }
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-job_hoover {
+/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.buttons-job:hover, .buttons-job.job_hover, .buttons-job.job-hover {
   background-position: 0 -696px;
 }
 
@@ -488,6 +483,29 @@ footer #logo_footer {
   background-repeat: no-repeat;
   height: 750px;
   width: 100%;
+}
+/* line 93, ../sass/home.scss */
+#contact #get_in_touch {
+  background-image: url('/everydayiplay/img/main/hanging_note.png?1367091519');
+  width: 885px;
+  height: 889px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+/* line 99, ../sass/home.scss */
+#contact #contact_us {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
+}
+/* line 105, ../sass/home.scss */
+#contact #job {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
 }
 
 /*

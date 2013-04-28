@@ -86,8 +86,26 @@
 
 #contact {
 	background-image: image-url('main/bg-photo6.jpg');	
-	background-position:center top;
+	background-position:center top; 
 	background-repeat:no-repeat; 
 	height: 750px;
 	width: 100%;
+	#get_in_touch {		
+        @include image-div('main/hanging_note.png');
+        margin: auto;
+        position: relative;
+        top: 30px;
+	}
+	#contact_us {		
+        width: image-width('buttons/contact_us.png');
+    	height: image-height('buttons/contact_us.png');
+        margin: auto;
+        display: block;
+	}
+	#job {		
+        width: image-width('buttons/job.png');
+    	height: image-height('buttons/job.png');
+        margin: auto;
+        display: block;
+	}
 }

@@ -116,3 +116,26 @@
   height: 750px;
   width: 100%;
 }
+/* line 93, ../sass/home.scss */
+#contact #get_in_touch {
+  background-image: url('/everydayiplay/img/main/hanging_note.png?1367091519');
+  width: 885px;
+  height: 889px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+/* line 99, ../sass/home.scss */
+#contact #contact_us {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
+}
+/* line 105, ../sass/home.scss */
+#contact #job {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
+}
