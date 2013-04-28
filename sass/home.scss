@@ -12,16 +12,24 @@
 	width: 100%;
 	#logo {		
         @include image-div('main/logo.png');
-        margin: auto;
+        width: 96%;
+        margin: 10px auto;
         position: relative;
         top: 30px;
         display: block;
+        @media screen and (max-width: $breakMobile) {
+        	top: 150px;
+        }
 	}
 	#viking {		
         @include image-div('main/viking.png');
         margin: auto;
         position: relative;
-        bottom: -145px;
+        top: 135px;
+        @media screen and (max-width: $breakMobile) {
+			width:300px;
+			top: 233px;
+		}
 	}
 }
 
@@ -35,18 +43,38 @@
 		width: 1032px;
 		margin-top: 50px;
 		font-weight: 600;
+		@media screen and (max-width: $breakAbout) {
+			width:100%;
+		}
 		#rules_vision {
 			font-size: 4.5em;
-			width:50%;
+			width:48%;
 			float: left;
 			line-height: 1;
 			font-weight: 900;
+			padding: 0 1% 0 1%;
+			@media screen and (max-width: $breakAbout) {
+				float: none;
+				margin: auto;
+				text-align:center;
+				width:100%;
+			}
 		}
 		#rules_text {
-			font-size: 1.7em;
-			width:50%;
+			font-size: 1.6em;
+			width:48%;
 			float: right;
 			margin-top: 22px;
+			padding: 0 1% 0 1%;
+			@media screen and (max-width: $breakAbout) {
+				float: none;
+				margin: auto;
+				text-align:center;
+				width:100%;
+			}
+			@media screen and (max-width: $breakRules) {
+				font-size: 1.2em;
+			}
 		}
 	}
 	#stay_small_sticker_container {
@@ -60,26 +88,72 @@
 		margin: 50px 3% 0 3%;
 		float: left;
 		line-height: 0.6;
-		text-align: center;		
+		text-align: center;	
+		@media screen and (max-width: $breakMobile) {
+			float: none;
+			width: 300px;
+			height: 90px;
+			margin: auto;
+		}	
 		#stay_small_sticker {
 			@include image-div('main/paper-sheet-1.png');
+			@media screen and (max-width: $breakAbout) {
+				width:200px;
+				height: 260px;
+				background-size: contain;
+			}
+			@media screen and (max-width: $breakMobile) {
+				background: none;
+				width:100%;
+			}
 		}
 		#independent_sticker {
 			@include image-div('main/paper-sheet-2.png');
+			@media screen and (max-width: $breakAbout) {
+				width:200px;
+				height: 260px;
+				background-size: contain;
+			}
+			@media screen and (max-width: $breakMobile) {
+				background: none;
+				width:100%;
+			}
 		}
 		#top_talent_sticker {
 			@include image-div('main/paper-sheet-3.png');
+			@media screen and (max-width: $breakAbout) {
+				width:200px;
+				height: 260px;
+				background-size: contain;
+			}
+			@media screen and (max-width: $breakMobile) {
+				background: none;
+				width:100%;
+			}
 		}
 		#stay_small {
 			padding-left: 9px;
 		}
 		#independent {
 			padding-top: 225px;
+			@media screen and (max-width: $breakAbout) {
+				padding-top: 150px;
+			}
+			@media screen and (max-width: $breakMobile) {
+				padding-top: 0px;
+			}
 		}
 		.sticker {
 			font-size:5em;
 			font-family: $fontFamilyAlt;
 			padding-top: 195px;
+			@media screen and (max-width: $breakAbout) {
+				font-size: 3em;
+				padding-top: 150px;
+			}
+			@media screen and (max-width: $breakMobile) {
+				padding-top: 0px;
+			}
 			.small {
 				font-size:0.6em;
 			}
@@ -88,6 +162,9 @@
 			font-size: 1em;
 			line-height: 1.4;
 			font-weight: 600;
+			@media screen and (max-width: $breakMobile) {
+				display: none;
+			}
 		}
 	}
 }
@@ -101,17 +178,27 @@
 	position: relative;
 	#game_logo {
 		@include image-div('main/game-logo.png');
+		max-width: image-width('main/game-logo.png');
+		width: 70%;
 		background-position: center top;
 		background-repeat: no-repeat; 
 		float: left;
 		position: relative;
 		top: 75px;
+		background-size: contain;
+		@media screen and (max-width: $breakGameDescription) {
+			width: 100%;
+		}
 	}
 	#tablet {
 		@include image-div('main/ipad.png');
-		background-position: right top;
-		background-repeat: no-repeat; 
+		width: 70%;
+		background-position: right top;		
+		background-size: cover;
 		float: left;
+		@media screen and (max-width: $breakMobile) {
+			width: 100%;
+		}
 	}	
 	.buttons-apps_store {
 		width: image-width('buttons/apps_store.png');
@@ -131,16 +218,32 @@
 		margin-top: 80px;
 		#slideshow {
 			@include image-div('main/slide1.png');
+			max-width: image-width('main/slide1.png');
+			background-position: center top;
+			background-repeat: no-repeat; 
+			width: 100%;
+			background-size: contain;
+			@media screen and (max-width: $breakMobile) {
+				display: none;
+			}
 		}
 		#description {
 			font-size: 1.3em;
 			font-weight: 600;
 			line-height: 1.2;
+			@media screen and (max-width: $breakGameDescription) {
+				display: none;
+			}
 		}
 	}
 	#shops {
 		position: absolute;
 		top: 660px;
+		@media screen and (max-width: $breakLinksToShops) {
+			width: 250px;
+			top: 490px;
+			left: 50px;
+		}
 		a {
 			display: inline-block;
 		    margin: 0 5px 0 5px;
@@ -160,6 +263,10 @@
 	#get_in_touch {		
         @include image-div('main/hanging_note.png');
         margin: auto;
+        @media screen and (max-width: $breakMobile) {
+			width: 300px;
+			height: 400px;			
+		}
         #get_in_touch_text {
         	text-align: center;
         	font-family: $fontFamilyAlt;
@@ -168,6 +275,10 @@
         	position: relative;
 			top: 195px;			
     		line-height: 1;
+    		@media screen and (max-width: $breakMobile) {
+    			font-size: 1.2em;
+    			top: 112px;	
+    		}
         	#get_in_touch_title {
         		font-size: 3em;
         		line-height: 1.4;

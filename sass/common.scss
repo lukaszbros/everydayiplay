@@ -54,9 +54,7 @@ textarea, input {
 	margin: auto;
     overflow: hidden;
 	@media screen and (max-width: $breakBase) {
-    	width: 98%;
-    	margin-left: 1%;
-		  margin-right: 1%;
+    	width: 100%
   	}	
 }
 
@@ -75,18 +73,25 @@ header {
     top: 0px;
     #top_bar {       
         #logo_header {
-        	margin-top: 10px;
+        	margin: 10px 0 0 1%;
             float:left;
           	@include image-div('main/logo_header.png');
+          	@media screen and (max-width: $breakMenu) {
+          		display: none;
+          	}
         }
         #menu {
           	float:right;
           	line-height: $headerHeight;
-          	width: 400px;
+          	width: 320px;
+          	@media screen and (max-width: $breakMenu) {
+          		float: none;
+          		margin: auto;
+          	}
           	a {
           		color: $headerLink;
           		text-decoration: none;
-          		padding-left: 15%;
+          		padding-left: 11%;
           		font-weight: 600;
           		&:hover {
           			color: $headerLinkHover;
