@@ -14,6 +14,7 @@ $('document').ready ->
      $('#viking').css('z-index','2')
   )
   
+  $('#viking').css('z-index','0')
   if document.documentElement.clientWidth > 600
     $('#viking').css('top','350px')
   else
