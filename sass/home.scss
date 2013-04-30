@@ -25,10 +25,10 @@
         @include image-div('main/viking.png');
         margin: auto;
         position: relative;
-        top: 350px;
+        top: 135px;
         @media screen and (max-width: $breakMobile) {
 			width:300px;
-			top: 448px;
+			top: 233px;
 		}
 	}
 }

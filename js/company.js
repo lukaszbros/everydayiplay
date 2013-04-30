@@ -14,6 +14,11 @@
       });
     };
     if (document.documentElement.clientWidth > 600) {
+      $('#viking').css('top', '350px');
+    } else {
+      $('#viking').css('top', '448px');
+    }
+    if (document.documentElement.clientWidth > 600) {
       return setTimeout(function() {
         return animateViking();
       }, 700);

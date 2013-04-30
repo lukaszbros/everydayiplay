@@ -15,6 +15,11 @@ $('document').ready ->
   )
   
   if document.documentElement.clientWidth > 600
+    $('#viking').css('top','350px')
+  else
+    $('#viking').css('top','448px')
+    
+  if document.documentElement.clientWidth > 600
     #timeout animation on PC
     setTimeout( 
       ->

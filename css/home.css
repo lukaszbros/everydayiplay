@@ -43,13 +43,13 @@
   background-size: contain;
   margin: auto;
   position: relative;
-  top: 350px;
+  top: 135px;
 }
 @media screen and (max-width: 600px) {
   /* line 24, ../sass/home.scss */
   #company #viking {
     width: 300px;
-    top: 448px;
+    top: 233px;
   }
 }
 
