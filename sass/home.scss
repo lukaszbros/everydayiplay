@@ -144,9 +144,10 @@
 			}
 		}
 		.sticker {
-			font-size:5em;
+			font-size:4.5em;
 			font-family: $fontFamilyAlt;
-			padding-top: 195px;
+			padding-top: 205px;
+			font-weight: 600;
 			@media screen and (max-width: $breakAbout) {
 				font-size: 3em;
 				padding-top: 150px;
@@ -155,6 +156,7 @@
 				padding-top: 0px;
 			}
 			.small {
+				font-weight: 300;
 				font-size:0.6em;
 			}
 		}
@@ -189,6 +191,12 @@
 		@media screen and (max-width: $breakGameDescription) {
 			width: 100%;
 		}
+		@media screen and (max-width: $breakMobile) {
+			width: 300px;
+			top: 30px;
+			float: none;
+			margin: auto;
+		}
 	}
 	#tablet {
 		@include image-div('main/ipad.png');
@@ -216,6 +224,13 @@
 		float: right;
 		width: 30%;
 		margin-top: 80px;
+		@media screen and (max-width: $breakMobile) {
+			float: none;
+			margin: auto;
+			width:300px;
+			height: 250px;
+			margin-top: -180px;
+		}
 		#slideshow {
 			@include image-div('main/slide1.png');
 			max-width: image-width('main/slide1.png');
@@ -224,7 +239,7 @@
 			width: 100%;
 			background-size: contain;
 			@media screen and (max-width: $breakMobile) {
-				display: none;
+				
 			}
 		}
 		#description {
@@ -263,6 +278,7 @@
 	#get_in_touch {		
         @include image-div('main/hanging_note.png');
         margin: auto;
+        margin-top: 15px;
         @media screen and (max-width: $breakMobile) {
 			width: 300px;
 			height: 400px;			
@@ -273,11 +289,11 @@
         	font-size: 2em;
         	font-weight: 600;
         	position: relative;
-			top: 195px;			
+			top: 170px;			
     		line-height: 1;
     		@media screen and (max-width: $breakMobile) {
     			font-size: 1.2em;
-    			top: 112px;	
+    			top: 100px;
     		}
         	#get_in_touch_title {
         		font-size: 3em;

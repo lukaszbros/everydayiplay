@@ -217,36 +217,37 @@ textarea {
   background-position: 0 -1108px;
 }
 
-/* line 3, ../sass/common.scss */
+/* line 4, ../sass/common.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 7, ../sass/common.scss */
+/* line 8, ../sass/common.scss */
 body {
   background: white;
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   font-weight: 300;
+  text-shadow: 0px 1px 0px white;
 }
 
-/* line 14, ../sass/common.scss */
+/* line 16, ../sass/common.scss */
 a {
   color: black;
   text-decoration: none;
 }
-/* line 17, ../sass/common.scss */
+/* line 19, ../sass/common.scss */
 a:hover {
   color: #333333;
   text-decoration: underline;
 }
 
-/* line 23, ../sass/common.scss */
+/* line 25, ../sass/common.scss */
 p {
   font-size: 1.6em;
 }
 
-/* line 27, ../sass/common.scss */
+/* line 29, ../sass/common.scss */
 h1 {
   font-size: 1.5em;
   font-family: "AmaticSCRegular", "sans-serif";
@@ -254,14 +255,14 @@ h1 {
   font-weight: 600;
 }
 
-/* line 33, ../sass/common.scss */
+/* line 35, ../sass/common.scss */
 h2 {
   font-size: 1em;
   margin: 0 0;
   font-weight: 300;
 }
 
-/* line 39, ../sass/common.scss */
+/* line 41, ../sass/common.scss */
 textarea, input {
   outline: none;
   border: 1px solid #cccccc;
@@ -279,7 +280,7 @@ textarea:-moz-placeholder, input:-moz-placeholder {
 textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
   color: #cccccc;
 }
-/* line 44, ../sass/common.scss */
+/* line 46, ../sass/common.scss */
 textarea:focus, input:focus {
   outline: none;
   border: 1px solid #666666;
@@ -298,25 +299,25 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   color: #666666;
 }
 
-/* line 52, ../sass/common.scss */
+/* line 54, ../sass/common.scss */
 .container {
   width: 1250px;
   margin: auto;
   overflow: hidden;
 }
 @media screen and (max-width: 1250px) {
-  /* line 52, ../sass/common.scss */
+  /* line 54, ../sass/common.scss */
   .container {
     width: 100%;
   }
 }
 
-/* line 61, ../sass/common.scss */
+/* line 63, ../sass/common.scss */
 .white {
   color: #ffffff;
 }
 
-/* line 66, ../sass/common.scss */
+/* line 68, ../sass/common.scss */
 header {
   z-index: 10;
   background-color: #1a1a1a;
@@ -324,8 +325,11 @@ header {
   width: 100%;
   position: fixed;
   top: 0px;
+  -webkit-box-shadow: 0px 0px 8px black;
+  -moz-box-shadow: 0px 0px 8px black;
+  box-shadow: 0px 0px 8px black;
 }
-/* line 75, ../sass/common.scss */
+/* line 78, ../sass/common.scss */
 header #top_bar #logo_header {
   margin: 10px 0 0 1%;
   float: left;
@@ -337,43 +341,54 @@ header #top_bar #logo_header {
   background-repeat: no-repeat;
   background-size: contain;
 }
+/* line 82, ../sass/common.scss */
+header #top_bar #logo_header:hover {
+  background-image: url('/everydayiplay/img/main/logo_header_hover.png?1367155830');
+  max-width: 37px;
+  width: 100%;
+  height: 48px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 @media screen and (max-width: 400px) {
-  /* line 75, ../sass/common.scss */
+  /* line 78, ../sass/common.scss */
   header #top_bar #logo_header {
     display: none;
   }
 }
-/* line 83, ../sass/common.scss */
+/* line 89, ../sass/common.scss */
 header #top_bar #menu {
   float: right;
   line-height: 70px;
   width: 320px;
 }
 @media screen and (max-width: 400px) {
-  /* line 83, ../sass/common.scss */
+  /* line 89, ../sass/common.scss */
   header #top_bar #menu {
     float: none;
     margin: auto;
   }
 }
-/* line 91, ../sass/common.scss */
+/* line 97, ../sass/common.scss */
 header #top_bar #menu a {
   color: #dddddd;
   text-decoration: none;
   padding-left: 11%;
   font-weight: 600;
+  text-shadow: none;
 }
-/* line 96, ../sass/common.scss */
+/* line 103, ../sass/common.scss */
 header #top_bar #menu a:hover {
   color: white;
 }
 
-/* line 105, ../sass/common.scss */
+/* line 112, ../sass/common.scss */
 footer {
-  height: 110px;
+  height: 120px;
   background-color: #1a1a1a;
 }
-/* line 108, ../sass/common.scss */
+/* line 115, ../sass/common.scss */
 footer #logo_footer {
   background-image: url('/everydayiplay/img/main/logo_footer.png?1367091519');
   max-width: 239px;
@@ -383,7 +398,7 @@ footer #logo_footer {
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
-  top: 25px;
+  top: 30px;
   position: relative;
 }
 
@@ -625,9 +640,10 @@ footer #logo_footer {
 }
 /* line 146, ../sass/home.scss */
 #about .sticker_container .sticker {
-  font-size: 5em;
+  font-size: 4.5em;
   font-family: "AmaticSCRegular", "sans-serif";
-  padding-top: 195px;
+  padding-top: 205px;
+  font-weight: 600;
 }
 @media screen and (max-width: 1000px) {
   /* line 146, ../sass/home.scss */
@@ -642,24 +658,25 @@ footer #logo_footer {
     padding-top: 0px;
   }
 }
-/* line 157, ../sass/home.scss */
+/* line 158, ../sass/home.scss */
 #about .sticker_container .sticker .small {
+  font-weight: 300;
   font-size: 0.6em;
 }
-/* line 161, ../sass/home.scss */
+/* line 163, ../sass/home.scss */
 #about .sticker_container .sticker_subtitle {
   font-size: 1em;
   line-height: 1.4;
   font-weight: 600;
 }
 @media screen and (max-width: 600px) {
-  /* line 161, ../sass/home.scss */
+  /* line 163, ../sass/home.scss */
   #about .sticker_container .sticker_subtitle {
     display: none;
   }
 }
 
-/* line 172, ../sass/home.scss */
+/* line 174, ../sass/home.scss */
 #games {
   background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367091518');
   background-position: center top;
@@ -668,7 +685,7 @@ footer #logo_footer {
   width: 100%;
   position: relative;
 }
-/* line 179, ../sass/home.scss */
+/* line 181, ../sass/home.scss */
 #games #game_logo {
   background-image: url('/everydayiplay/img/main/game-logo.png?1367091518');
   max-width: 685px;
@@ -687,12 +704,21 @@ footer #logo_footer {
   background-size: contain;
 }
 @media screen and (max-width: 1000px) {
-  /* line 179, ../sass/home.scss */
+  /* line 181, ../sass/home.scss */
   #games #game_logo {
     width: 100%;
   }
 }
-/* line 193, ../sass/home.scss */
+@media screen and (max-width: 600px) {
+  /* line 181, ../sass/home.scss */
+  #games #game_logo {
+    width: 300px;
+    top: 30px;
+    float: none;
+    margin: auto;
+  }
+}
+/* line 201, ../sass/home.scss */
 #games #tablet {
   background-image: url('/everydayiplay/img/main/ipad.png?1367091519');
   max-width: 769px;
@@ -707,33 +733,43 @@ footer #logo_footer {
   float: left;
 }
 @media screen and (max-width: 600px) {
-  /* line 193, ../sass/home.scss */
+  /* line 201, ../sass/home.scss */
   #games #tablet {
     width: 100%;
   }
 }
-/* line 203, ../sass/home.scss */
+/* line 211, ../sass/home.scss */
 #games .buttons-apps_store {
   width: 222px;
   height: 81px;
 }
-/* line 207, ../sass/home.scss */
+/* line 215, ../sass/home.scss */
 #games .buttons-google {
   width: 222px;
   height: 81px;
 }
-/* line 211, ../sass/home.scss */
+/* line 219, ../sass/home.scss */
 #games .buttons-facebook {
   width: 222px;
   height: 81px;
 }
-/* line 215, ../sass/home.scss */
+/* line 223, ../sass/home.scss */
 #games #schetches {
   float: right;
   width: 30%;
   margin-top: 80px;
 }
-/* line 219, ../sass/home.scss */
+@media screen and (max-width: 600px) {
+  /* line 223, ../sass/home.scss */
+  #games #schetches {
+    float: none;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    margin-top: -180px;
+  }
+}
+/* line 234, ../sass/home.scss */
 #games #schetches #slideshow {
   background-image: url('/everydayiplay/img/main/slide1.png?1367091519');
   max-width: 383px;
@@ -748,46 +784,40 @@ footer #logo_footer {
   width: 100%;
   background-size: contain;
 }
-@media screen and (max-width: 600px) {
-  /* line 219, ../sass/home.scss */
-  #games #schetches #slideshow {
-    display: none;
-  }
-}
-/* line 230, ../sass/home.scss */
+/* line 245, ../sass/home.scss */
 #games #schetches #description {
   font-size: 1.3em;
   font-weight: 600;
   line-height: 1.2;
 }
 @media screen and (max-width: 1000px) {
-  /* line 230, ../sass/home.scss */
+  /* line 245, ../sass/home.scss */
   #games #schetches #description {
     display: none;
   }
 }
-/* line 239, ../sass/home.scss */
+/* line 254, ../sass/home.scss */
 #games #shops {
   position: absolute;
   top: 660px;
 }
 @media screen and (max-width: 1070px) {
-  /* line 239, ../sass/home.scss */
+  /* line 254, ../sass/home.scss */
   #games #shops {
     width: 250px;
     top: 490px;
     left: 50px;
   }
 }
-/* line 247, ../sass/home.scss */
+/* line 262, ../sass/home.scss */
 #games #shops a {
   display: inline-block;
   margin: 0 5px 0 5px;
 }
 
-/* line 254, ../sass/home.scss */
+/* line 269, ../sass/home.scss */
 #contact {
-  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367091518');
+  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367155794');
   background-position: center top;
   background-repeat: no-repeat;
   height: 750px;
@@ -796,47 +826,48 @@ footer #logo_footer {
   z-index: 1;
   position: relative;
 }
-/* line 263, ../sass/home.scss */
+/* line 278, ../sass/home.scss */
 #contact #get_in_touch {
-  background-image: url('/everydayiplay/img/main/hanging_note.png?1367156282');
-  max-width: 513px;
+  background-image: url('/everydayiplay/img/main/hanging_note.png?1367155816');
+  max-width: 505px;
   width: 100%;
-  height: 504px;
+  height: 484px;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
+  margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
-  /* line 263, ../sass/home.scss */
+  /* line 278, ../sass/home.scss */
   #contact #get_in_touch {
     width: 300px;
     height: 400px;
   }
 }
-/* line 270, ../sass/home.scss */
+/* line 286, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text {
   text-align: center;
   font-family: "AmaticSCRegular", "sans-serif";
   font-size: 2em;
   font-weight: 600;
   position: relative;
-  top: 195px;
+  top: 170px;
   line-height: 1;
 }
 @media screen and (max-width: 600px) {
-  /* line 270, ../sass/home.scss */
+  /* line 286, ../sass/home.scss */
   #contact #get_in_touch #get_in_touch_text {
     font-size: 1.2em;
-    top: 112px;
+    top: 100px;
   }
 }
-/* line 282, ../sass/home.scss */
+/* line 298, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text #get_in_touch_title {
   font-size: 3em;
   line-height: 1.4;
 }
-/* line 288, ../sass/home.scss */
+/* line 304, ../sass/home.scss */
 #contact #contact_us {
   width: 264px;
   height: 105px;
@@ -844,7 +875,7 @@ footer #logo_footer {
   display: block;
   margin-top: 10px;
 }
-/* line 295, ../sass/home.scss */
+/* line 311, ../sass/home.scss */
 #contact #job {
   width: 264px;
   height: 105px;

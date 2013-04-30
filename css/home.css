@@ -236,9 +236,10 @@
 }
 /* line 146, ../sass/home.scss */
 #about .sticker_container .sticker {
-  font-size: 5em;
+  font-size: 4.5em;
   font-family: "AmaticSCRegular", "sans-serif";
-  padding-top: 195px;
+  padding-top: 205px;
+  font-weight: 600;
 }
 @media screen and (max-width: 1000px) {
   /* line 146, ../sass/home.scss */
@@ -253,24 +254,25 @@
     padding-top: 0px;
   }
 }
-/* line 157, ../sass/home.scss */
+/* line 158, ../sass/home.scss */
 #about .sticker_container .sticker .small {
+  font-weight: 300;
   font-size: 0.6em;
 }
-/* line 161, ../sass/home.scss */
+/* line 163, ../sass/home.scss */
 #about .sticker_container .sticker_subtitle {
   font-size: 1em;
   line-height: 1.4;
   font-weight: 600;
 }
 @media screen and (max-width: 600px) {
-  /* line 161, ../sass/home.scss */
+  /* line 163, ../sass/home.scss */
   #about .sticker_container .sticker_subtitle {
     display: none;
   }
 }
 
-/* line 172, ../sass/home.scss */
+/* line 174, ../sass/home.scss */
 #games {
   background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367091518');
   background-position: center top;
@@ -279,7 +281,7 @@
   width: 100%;
   position: relative;
 }
-/* line 179, ../sass/home.scss */
+/* line 181, ../sass/home.scss */
 #games #game_logo {
   background-image: url('/everydayiplay/img/main/game-logo.png?1367091518');
   max-width: 685px;
@@ -298,12 +300,21 @@
   background-size: contain;
 }
 @media screen and (max-width: 1000px) {
-  /* line 179, ../sass/home.scss */
+  /* line 181, ../sass/home.scss */
   #games #game_logo {
     width: 100%;
   }
 }
-/* line 193, ../sass/home.scss */
+@media screen and (max-width: 600px) {
+  /* line 181, ../sass/home.scss */
+  #games #game_logo {
+    width: 300px;
+    top: 30px;
+    float: none;
+    margin: auto;
+  }
+}
+/* line 201, ../sass/home.scss */
 #games #tablet {
   background-image: url('/everydayiplay/img/main/ipad.png?1367091519');
   max-width: 769px;
@@ -318,33 +329,43 @@
   float: left;
 }
 @media screen and (max-width: 600px) {
-  /* line 193, ../sass/home.scss */
+  /* line 201, ../sass/home.scss */
   #games #tablet {
     width: 100%;
   }
 }
-/* line 203, ../sass/home.scss */
+/* line 211, ../sass/home.scss */
 #games .buttons-apps_store {
   width: 222px;
   height: 81px;
 }
-/* line 207, ../sass/home.scss */
+/* line 215, ../sass/home.scss */
 #games .buttons-google {
   width: 222px;
   height: 81px;
 }
-/* line 211, ../sass/home.scss */
+/* line 219, ../sass/home.scss */
 #games .buttons-facebook {
   width: 222px;
   height: 81px;
 }
-/* line 215, ../sass/home.scss */
+/* line 223, ../sass/home.scss */
 #games #schetches {
   float: right;
   width: 30%;
   margin-top: 80px;
 }
-/* line 219, ../sass/home.scss */
+@media screen and (max-width: 600px) {
+  /* line 223, ../sass/home.scss */
+  #games #schetches {
+    float: none;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    margin-top: -180px;
+  }
+}
+/* line 234, ../sass/home.scss */
 #games #schetches #slideshow {
   background-image: url('/everydayiplay/img/main/slide1.png?1367091519');
   max-width: 383px;
@@ -359,46 +380,40 @@
   width: 100%;
   background-size: contain;
 }
-@media screen and (max-width: 600px) {
-  /* line 219, ../sass/home.scss */
-  #games #schetches #slideshow {
-    display: none;
-  }
-}
-/* line 230, ../sass/home.scss */
+/* line 245, ../sass/home.scss */
 #games #schetches #description {
   font-size: 1.3em;
   font-weight: 600;
   line-height: 1.2;
 }
 @media screen and (max-width: 1000px) {
-  /* line 230, ../sass/home.scss */
+  /* line 245, ../sass/home.scss */
   #games #schetches #description {
     display: none;
   }
 }
-/* line 239, ../sass/home.scss */
+/* line 254, ../sass/home.scss */
 #games #shops {
   position: absolute;
   top: 660px;
 }
 @media screen and (max-width: 1070px) {
-  /* line 239, ../sass/home.scss */
+  /* line 254, ../sass/home.scss */
   #games #shops {
     width: 250px;
     top: 490px;
     left: 50px;
   }
 }
-/* line 247, ../sass/home.scss */
+/* line 262, ../sass/home.scss */
 #games #shops a {
   display: inline-block;
   margin: 0 5px 0 5px;
 }
 
-/* line 254, ../sass/home.scss */
+/* line 269, ../sass/home.scss */
 #contact {
-  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367091518');
+  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367155794');
   background-position: center top;
   background-repeat: no-repeat;
   height: 750px;
@@ -407,47 +422,48 @@
   z-index: 1;
   position: relative;
 }
-/* line 263, ../sass/home.scss */
+/* line 278, ../sass/home.scss */
 #contact #get_in_touch {
-  background-image: url('/everydayiplay/img/main/hanging_note.png?1367156282');
-  max-width: 513px;
+  background-image: url('/everydayiplay/img/main/hanging_note.png?1367155816');
+  max-width: 505px;
   width: 100%;
-  height: 504px;
+  height: 484px;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
+  margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
-  /* line 263, ../sass/home.scss */
+  /* line 278, ../sass/home.scss */
   #contact #get_in_touch {
     width: 300px;
     height: 400px;
   }
 }
-/* line 270, ../sass/home.scss */
+/* line 286, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text {
   text-align: center;
   font-family: "AmaticSCRegular", "sans-serif";
   font-size: 2em;
   font-weight: 600;
   position: relative;
-  top: 195px;
+  top: 170px;
   line-height: 1;
 }
 @media screen and (max-width: 600px) {
-  /* line 270, ../sass/home.scss */
+  /* line 286, ../sass/home.scss */
   #contact #get_in_touch #get_in_touch_text {
     font-size: 1.2em;
-    top: 112px;
+    top: 100px;
   }
 }
-/* line 282, ../sass/home.scss */
+/* line 298, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text #get_in_touch_title {
   font-size: 3em;
   line-height: 1.4;
 }
-/* line 288, ../sass/home.scss */
+/* line 304, ../sass/home.scss */
 #contact #contact_us {
   width: 264px;
   height: 105px;
@@ -455,7 +471,7 @@
   display: block;
   margin-top: 10px;
 }
-/* line 295, ../sass/home.scss */
+/* line 311, ../sass/home.scss */
 #contact #job {
   width: 264px;
   height: 105px;

@@ -1,33 +1,34 @@
-/* line 3, ../sass/common.scss */
+/* line 4, ../sass/common.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 7, ../sass/common.scss */
+/* line 8, ../sass/common.scss */
 body {
   background: white;
   font-family: "proxima-nova", sans-serif;
   font-style: normal;
   font-weight: 300;
+  text-shadow: 0px 1px 0px white;
 }
 
-/* line 14, ../sass/common.scss */
+/* line 16, ../sass/common.scss */
 a {
   color: black;
   text-decoration: none;
 }
-/* line 17, ../sass/common.scss */
+/* line 19, ../sass/common.scss */
 a:hover {
   color: #333333;
   text-decoration: underline;
 }
 
-/* line 23, ../sass/common.scss */
+/* line 25, ../sass/common.scss */
 p {
   font-size: 1.6em;
 }
 
-/* line 27, ../sass/common.scss */
+/* line 29, ../sass/common.scss */
 h1 {
   font-size: 1.5em;
   font-family: "AmaticSCRegular", "sans-serif";
@@ -35,14 +36,14 @@ h1 {
   font-weight: 600;
 }
 
-/* line 33, ../sass/common.scss */
+/* line 35, ../sass/common.scss */
 h2 {
   font-size: 1em;
   margin: 0 0;
   font-weight: 300;
 }
 
-/* line 39, ../sass/common.scss */
+/* line 41, ../sass/common.scss */
 textarea, input {
   outline: none;
   border: 1px solid #cccccc;
@@ -60,7 +61,7 @@ textarea:-moz-placeholder, input:-moz-placeholder {
 textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
   color: #cccccc;
 }
-/* line 44, ../sass/common.scss */
+/* line 46, ../sass/common.scss */
 textarea:focus, input:focus {
   outline: none;
   border: 1px solid #666666;
@@ -79,25 +80,25 @@ textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholde
   color: #666666;
 }
 
-/* line 52, ../sass/common.scss */
+/* line 54, ../sass/common.scss */
 .container {
   width: 1250px;
   margin: auto;
   overflow: hidden;
 }
 @media screen and (max-width: 1250px) {
-  /* line 52, ../sass/common.scss */
+  /* line 54, ../sass/common.scss */
   .container {
     width: 100%;
   }
 }
 
-/* line 61, ../sass/common.scss */
+/* line 63, ../sass/common.scss */
 .white {
   color: #ffffff;
 }
 
-/* line 66, ../sass/common.scss */
+/* line 68, ../sass/common.scss */
 header {
   z-index: 10;
   background-color: #1a1a1a;
@@ -105,8 +106,11 @@ header {
   width: 100%;
   position: fixed;
   top: 0px;
+  -webkit-box-shadow: 0px 0px 8px black;
+  -moz-box-shadow: 0px 0px 8px black;
+  box-shadow: 0px 0px 8px black;
 }
-/* line 75, ../sass/common.scss */
+/* line 78, ../sass/common.scss */
 header #top_bar #logo_header {
   margin: 10px 0 0 1%;
   float: left;
@@ -118,43 +122,54 @@ header #top_bar #logo_header {
   background-repeat: no-repeat;
   background-size: contain;
 }
+/* line 82, ../sass/common.scss */
+header #top_bar #logo_header:hover {
+  background-image: url('/everydayiplay/img/main/logo_header_hover.png?1367155830');
+  max-width: 37px;
+  width: 100%;
+  height: 48px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 @media screen and (max-width: 400px) {
-  /* line 75, ../sass/common.scss */
+  /* line 78, ../sass/common.scss */
   header #top_bar #logo_header {
     display: none;
   }
 }
-/* line 83, ../sass/common.scss */
+/* line 89, ../sass/common.scss */
 header #top_bar #menu {
   float: right;
   line-height: 70px;
   width: 320px;
 }
 @media screen and (max-width: 400px) {
-  /* line 83, ../sass/common.scss */
+  /* line 89, ../sass/common.scss */
   header #top_bar #menu {
     float: none;
     margin: auto;
   }
 }
-/* line 91, ../sass/common.scss */
+/* line 97, ../sass/common.scss */
 header #top_bar #menu a {
   color: #dddddd;
   text-decoration: none;
   padding-left: 11%;
   font-weight: 600;
+  text-shadow: none;
 }
-/* line 96, ../sass/common.scss */
+/* line 103, ../sass/common.scss */
 header #top_bar #menu a:hover {
   color: white;
 }
 
-/* line 105, ../sass/common.scss */
+/* line 112, ../sass/common.scss */
 footer {
-  height: 110px;
+  height: 120px;
   background-color: #1a1a1a;
 }
-/* line 108, ../sass/common.scss */
+/* line 115, ../sass/common.scss */
 footer #logo_footer {
   background-image: url('/everydayiplay/img/main/logo_footer.png?1367091519');
   max-width: 239px;
@@ -164,6 +179,6 @@ footer #logo_footer {
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
-  top: 25px;
+  top: 30px;
   position: relative;
 }

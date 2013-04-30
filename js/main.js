@@ -10,9 +10,15 @@
     });
     $('#menu_about').click(function(event) {
       event.preventDefault();
-      return $('html,body').animate({
-        scrollTop: 680
-      });
+      if (document.documentElement.clientWidth > 600) {
+        return $('html,body').animate({
+          scrollTop: 465
+        });
+      } else {
+        return $('html,body').animate({
+          scrollTop: 555
+        });
+      }
     });
     $('#menu_games').click(function(event) {
       event.preventDefault();
