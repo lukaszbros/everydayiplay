@@ -18,17 +18,17 @@
         top: 30px;
         display: block;
         @media screen and (max-width: $breakMobile) {
-        	top: 150px;
+        	top: 100px;
         }
 	}
 	#viking {		
         @include image-div('main/viking.png');
         margin: auto;
         position: relative;
-        top: 135px;
+        top: 350px;
         @media screen and (max-width: $breakMobile) {
 			width:300px;
-			top: 233px;
+			top: 448px;
 		}
 	}
 }
@@ -37,6 +37,8 @@
 	background-image: image-url('main/wood_pattern.png');	
 	height: 750px;
 	width: 100%;
+	z-index:1;
+	position: relative;
 	#top_rules {
 		position: relative;
 		margin: auto;

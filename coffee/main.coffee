@@ -1,11 +1,4 @@
 $('document').ready ->
-  #random background
-  backgrounId = Math.floor((Math.random()*4)+1)
-  $('#company').css('background-image','url(img/main/bg-photo' + backgrounId + '.jpg)')
-  
-  #paralax
-  $('#company').parallax("50%", 0.7, false);
-  
   #menu
   $('#logo_header').click (event) ->
     event.preventDefault()

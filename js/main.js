@@ -2,10 +2,6 @@
 (function() {
 
   $('document').ready(function() {
-    var backgrounId;
-    backgrounId = Math.floor((Math.random() * 4) + 1);
-    $('#company').css('background-image', 'url(img/main/bg-photo' + backgrounId + '.jpg)');
-    $('#company').parallax("50%", 0.7, false);
     $('#logo_header').click(function(event) {
       event.preventDefault();
       return $('html,body').animate({
