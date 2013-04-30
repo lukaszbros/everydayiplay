@@ -35,10 +35,11 @@ $fontFamilyAlt: "AmaticSCRegular","sans-serif";
 }
 
 @mixin image-div($imageAddress) {
-	background-image: image-url($imageAddress);
-	max-width: image-width($imageAddress);
+	background-image: image-url("main/" + $imageAddress);
+	background-image: -webkit-image-set(image_url("main/" + $imageAddress) 1x, image_url("main_mobile/" + $imageAddress) 2x);
+	max-width: image-width("main/" + $imageAddress);
 	width: 100%;
-    height: image-height($imageAddress);
+    height: image-height("main/" + $imageAddress);
     background-position:center top;
 	background-repeat:no-repeat; 
 	background-size: contain;

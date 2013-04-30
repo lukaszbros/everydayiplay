@@ -115,6 +115,7 @@ header #top_bar #logo_header {
   margin: 10px 0 0 1%;
   float: left;
   background-image: url('/everydayiplay/img/main/logo_header.png?1367091519');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo_header.png?1367091519') 1x, url('/everydayiplay/img/main_mobile/logo_header.png?1367091522') 2x);
   max-width: 37px;
   width: 100%;
   height: 48px;
@@ -125,6 +126,7 @@ header #top_bar #logo_header {
 /* line 82, ../sass/common.scss */
 header #top_bar #logo_header:hover {
   background-image: url('/everydayiplay/img/main/logo_header_hover.png?1367155830');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo_header_hover.png?1367155830') 1x, url('/everydayiplay/img/main_mobile/logo_header_hover.png?1367155880') 2x);
   max-width: 37px;
   width: 100%;
   height: 48px;
@@ -172,6 +174,7 @@ footer {
 /* line 115, ../sass/common.scss */
 footer #logo_footer {
   background-image: url('/everydayiplay/img/main/logo_footer.png?1367091519');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo_footer.png?1367091519') 1x, url('/everydayiplay/img/main_mobile/logo_footer.png?1367091522') 2x);
   max-width: 239px;
   width: 100%;
   height: 42px;

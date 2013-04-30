@@ -11,7 +11,7 @@
 	height: 680px;
 	width: 100%;
 	#logo {		
-        @include image-div('main/logo.png');
+        @include image-div('logo.png');
         width: 96%;
         margin: 10px auto;
         position: relative;
@@ -22,7 +22,7 @@
         }
 	}
 	#viking {		
-        @include image-div('main/viking.png');
+        @include image-div('viking.png');
         margin: auto;
         position: relative;
         top: 135px;
@@ -99,7 +99,7 @@
 			margin: auto;
 		}	
 		#stay_small_sticker {
-			@include image-div('main/paper-sheet-1.png');
+			@include image-div('paper-sheet-1.png');
 			margin: auto;
 			@media screen and (max-width: $breakAbout) {
 				width:200px;
@@ -112,7 +112,7 @@
 			}
 		}
 		#independent_sticker {
-			@include image-div('main/paper-sheet-2.png');
+			@include image-div('paper-sheet-2.png');
 			margin: auto;
 			@media screen and (max-width: $breakAbout) {
 				width:200px;
@@ -125,7 +125,7 @@
 			}
 		}
 		#top_talent_sticker {
-			@include image-div('main/paper-sheet-3.png');
+			@include image-div('paper-sheet-3.png');
 			margin: auto;
 			@media screen and (max-width: $breakAbout) {
 				width:200px;
@@ -185,7 +185,7 @@
 	width: 100%;
 	position: relative;
 	#game_logo {
-		@include image-div('main/game-logo.png');
+		@include image-div('game-logo.png');
 		max-width: image-width('main/game-logo.png');
 		width: 70%;
 		background-position: center top;
@@ -205,7 +205,7 @@
 		}
 	}
 	#tablet {
-		@include image-div('main/ipad.png');
+		@include image-div('ipad.png');
 		width: 70%;
 		background-position: right top;		
 		background-size: cover;
@@ -238,7 +238,7 @@
 			margin-top: -180px;
 		}
 		#slideshow {
-			@include image-div('main/slide1.png');
+			@include image-div('slide1.png');
 			max-width: image-width('main/slide1.png');
 			background-position: center top;
 			background-repeat: no-repeat; 
@@ -288,7 +288,7 @@
 		height: 50px;
 	}
 	#get_in_touch {		
-        @include image-div('main/hanging_note.png');
+        @include image-div('hanging_note.png');
         margin: auto;
         margin-top: 15px;
         @media screen and (max-width: $breakMobile) {
