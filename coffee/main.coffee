@@ -1,4 +1,9 @@
 $('document').ready ->
+  #random background
+  backgrounId = Math.floor((Math.random()*4)+1)
+  $('#company').css('background-image','url(img/main/bg-photo' + backgrounId + '.jpg)')
+  
+  #menu
   $('#logo_header').click (event) ->
     event.preventDefault()
     $('html,body').animate 

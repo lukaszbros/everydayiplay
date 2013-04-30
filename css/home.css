@@ -423,6 +423,13 @@
   position: relative;
 }
 /* line 278, ../sass/home.scss */
+#contact #get_in_touch_pivot {
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+  height: 50px;
+}
+/* line 284, ../sass/home.scss */
 #contact #get_in_touch {
   background-image: url('/everydayiplay/img/main/hanging_note.png?1367155816');
   max-width: 505px;
@@ -435,13 +442,13 @@
   margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
-  /* line 278, ../sass/home.scss */
+  /* line 284, ../sass/home.scss */
   #contact #get_in_touch {
     width: 300px;
     height: 400px;
   }
 }
-/* line 286, ../sass/home.scss */
+/* line 292, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text {
   text-align: center;
   font-family: "AmaticSCRegular", "sans-serif";
@@ -452,26 +459,32 @@
   line-height: 1;
 }
 @media screen and (max-width: 600px) {
-  /* line 286, ../sass/home.scss */
+  /* line 292, ../sass/home.scss */
   #contact #get_in_touch #get_in_touch_text {
     font-size: 1.2em;
     top: 100px;
   }
 }
-/* line 298, ../sass/home.scss */
+/* line 304, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text #get_in_touch_title {
   font-size: 3em;
   line-height: 1.4;
 }
-/* line 304, ../sass/home.scss */
+/* line 310, ../sass/home.scss */
 #contact #contact_us {
   width: 264px;
   height: 105px;
   margin: auto;
   display: block;
-  margin-top: 10px;
+  margin-top: 443px;
 }
-/* line 311, ../sass/home.scss */
+@media screen and (max-width: 600px) {
+  /* line 310, ../sass/home.scss */
+  #contact #contact_us {
+    margin-top: 360px;
+  }
+}
+/* line 320, ../sass/home.scss */
 #contact #job {
   width: 264px;
   height: 105px;
