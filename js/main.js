@@ -2,47 +2,10 @@
 (function() {
 
   $('document').ready(function() {
-    var init, pendulumswing, rotation, swingtime;
-    rotation = 5;
-    swingtime = 1600;
-    init = function() {
-      return $('#get_in_touch_pivot').animate({
-        rotate: rotation
-      }, 0, function() {
-        $('#get_in_touch_pivot').css("display", "block");
-        rotation *= -1;
-        return pendulumswing();
-      });
-    };
-    pendulumswing = function() {
-      return $('#get_in_touch_pivot').animate({
-        rotate: rotation
-      }, swingtime, "swing", function() {
-        if (rotation === 0) {
-          return;
-        }
-        if (rotation > 0) {
-          rotation -= 0.5;
-        } else {
-          rotation += 0.5;
-        }
-        rotation *= -1;
-        return pendulumswing();
-      });
-    };
-    return $('#contact').waypoint(function() {
-      rotation = 5;
-      swingtime = 1600;
-      return init();
-    }, {
-      offset: 100
-    });
-  });
-
-  $('document').ready(function() {
     var backgrounId;
     backgrounId = Math.floor((Math.random() * 4) + 1);
     $('#company').css('background-image', 'url(img/main/bg-photo' + backgrounId + '.jpg)');
+    $('#company').parallax("50%", 0.7, false);
     $('#logo_header').click(function(event) {
       event.preventDefault();
       return $('html,body').animate({

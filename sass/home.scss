@@ -97,6 +97,7 @@
 		}	
 		#stay_small_sticker {
 			@include image-div('main/paper-sheet-1.png');
+			margin: auto;
 			@media screen and (max-width: $breakAbout) {
 				width:200px;
 				height: 260px;
@@ -109,6 +110,7 @@
 		}
 		#independent_sticker {
 			@include image-div('main/paper-sheet-2.png');
+			margin: auto;
 			@media screen and (max-width: $breakAbout) {
 				width:200px;
 				height: 260px;
@@ -121,6 +123,7 @@
 		}
 		#top_talent_sticker {
 			@include image-div('main/paper-sheet-3.png');
+			margin: auto;
 			@media screen and (max-width: $breakAbout) {
 				width:200px;
 				height: 260px;
