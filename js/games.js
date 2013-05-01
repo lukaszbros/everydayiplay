@@ -3,6 +3,7 @@
 
   $('document').ready(function() {
     var slideId;
+    $('#games').parallax("50%", 0.2, false);
     slideId = 1;
     return setInterval(function() {
       return $('#slideshow').fadeOut(function() {
@@ -13,7 +14,7 @@
         $('#slideshow').css('background-image', 'url(img/main/slide' + slideId + '.png)');
         return $('#slideshow').fadeIn();
       });
-    }, 3000);
+    }, 5000);
   });
 
 }).call(this);

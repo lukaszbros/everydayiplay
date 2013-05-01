@@ -231,7 +231,7 @@
 }
 /* line 143, ../sass/home.scss */
 #about .sticker_container #independent {
-  padding-top: 225px;
+  padding-top: 215px;
 }
 @media screen and (max-width: 1000px) {
   /* line 143, ../sass/home.scss */
@@ -247,7 +247,7 @@
 }
 /* line 152, ../sass/home.scss */
 #about .sticker_container .sticker {
-  font-size: 4.5em;
+  font-size: 4.2em;
   font-family: "AmaticSCRegular", "sans-serif";
   padding-top: 205px;
   font-weight: 600;

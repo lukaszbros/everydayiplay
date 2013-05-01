@@ -1,6 +1,6 @@
 $('document').ready ->
-  rotation = 5;
-  swingtime = 1000;
+  rotation = 3;
+  swingtime = 700;
  
   init = -> 
     $('#get_in_touch_pivot').stop().animate {rotate: rotation}, 0, ->
@@ -22,8 +22,8 @@ $('document').ready ->
   $('#contact').waypoint(
     (direction)->
       if (direction == 'down')
-        rotation = 5;
-        swingtime = 1000;
+        rotation = 3;
+        swingtime = 700;
         init()      
     offset: 500)
     

@@ -123,10 +123,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@import "buttons/*.png";
+/*@import "buttons/*.png";
 @include all-buttons-sprites;
 @import "buttons_mobile/*.png";
-@include all-buttons_mobile-sprites;
+@include all-buttons_mobile-sprites;*/
+
+$icons: sprite-map("buttons/*.png", $spacing: 20px);
+$icons-2x: sprite-map("buttons_mobile/*.png", $spacing: 20px);
+
+@mixin use-sprite($sprite) {
+    background-image: sprite-url($icons);
+    background-position: sprite-position($icons, $sprite);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    height: image-height(sprite-file($icons, $sprite));
+    width: image-width(sprite-file($icons, $sprite));
+
+    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 2) {
+        background-image: sprite-url($icons-2x);
+        background-size: (image-width(sprite-path($icons-2x)) / 2) (image-height(sprite-path($icons-2x)) / 2);
+        background-position: round(nth(sprite-position($icons-2x, $sprite), 1) / 2) round(nth(sprite-position($icons-2x, $sprite), 2) / 2);
+        height: image-height(sprite-file($icons-2x, $sprite)) / 2;
+        width: image-width(sprite-file($icons-2x, $sprite)) / 2;
+    }
+}
+
+.buttons-apps_store {
+	@include use-sprite("apps_store");
+	&:hover{ 
+		@include use-sprite("apps_store_hover");	
+	}
+}
+.buttons-contact_us {
+	@include use-sprite("contact_us");
+	&:hover{ 
+		@include use-sprite("contact_us_hover");	
+	}
+}
+.buttons-facebook {
+	@include use-sprite("facebook");
+	&:hover{ 
+		@include use-sprite("facebook_hover");	
+	}
+}
+.buttons-google {
+	@include use-sprite("google");
+	&:hover{ 
+		@include use-sprite("google_hover");	
+	}
+}
+.buttons-job {
+	@include use-sprite("job");
+	&:hover{ 
+		@include use-sprite("job_hover");	
+	}
+}
 
 @import "common";
 

@@ -1,4 +1,7 @@
 $('document').ready ->
+  #paralax
+  $('#games').parallax("50%", 0.2, false);
+  
   slideId=1
   setInterval(
     ->
@@ -7,5 +10,5 @@ $('document').ready ->
         slideId = 1 if slideId > 3 
         $('#slideshow').css('background-image','url(img/main/slide' + slideId + '.png)')       
         $('#slideshow').fadeIn()
-    3000)
+    5000)
   

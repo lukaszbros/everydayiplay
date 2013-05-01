@@ -112,109 +112,213 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* line 114, buttons/*.png */
-.buttons-sprite, .buttons-apps_store, .buttons-contact_us, .buttons-facebook, .buttons-google, .buttons-job {
-  background: url('/everydayiplay/img/buttons-s95bad4fa8a.png') no-repeat;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+                       /*@import "buttons/*.png";
+@include all-buttons-sprites;
+@import "buttons_mobile/*.png";
+@include all-buttons_mobile-sprites;*/
+/* line 152, ../sass/main.scss */
 .buttons-apps_store {
-  background-position: 0 -162px;
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -202px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
 }
-/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-apps_store:hover, .buttons-apps_store.apps_store_hover, .buttons-apps_store.apps_store-hover {
-  background-position: 0 -324px;
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 152, ../sass/main.scss */
+  .buttons-apps_store {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -173px;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+/* line 154, ../sass/main.scss */
+.buttons-apps_store:hover {
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -404px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 154, ../sass/main.scss */
+  .buttons-apps_store:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -260px;
+    height: 76.5px;
+    width: 217px;
+  }
 }
 
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 158, ../sass/main.scss */
 .buttons-contact_us {
-  background-position: 0 -591px;
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -731px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
 }
-/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-contact_us:hover, .buttons-contact_us.contact_us_hover, .buttons-contact_us.contact_us-hover {
-  background-position: 0 -801px;
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 158, ../sass/main.scss */
+  .buttons-contact_us {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -519px;
+    height: 95px;
+    width: 254px;
+  }
+}
+/* line 160, ../sass/main.scss */
+.buttons-contact_us:hover {
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -981px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 160, ../sass/main.scss */
+  .buttons-contact_us:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -834px;
+    height: 95px;
+    width: 254px;
+  }
 }
 
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 164, ../sass/main.scss */
 .buttons-facebook {
-  background-position: 0 -243px;
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -303px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
 }
-/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-facebook:hover, .buttons-facebook.facebook_hover, .buttons-facebook.facebook-hover {
-  background-position: 0 -405px;
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 164, ../sass/main.scss */
+  .buttons-facebook {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -346px;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+/* line 166, ../sass/main.scss */
+.buttons-facebook:hover {
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -505px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 166, ../sass/main.scss */
+  .buttons-facebook:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -433px;
+    height: 76.5px;
+    width: 217px;
+  }
 }
 
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 170, ../sass/main.scss */
 .buttons-google {
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
   background-position: 0 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
 }
-/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-google:hover, .buttons-google.google_hover, .buttons-google.google-hover {
-  background-position: 0 -81px;
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 170, ../sass/main.scss */
+  .buttons-google {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 0;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+/* line 172, ../sass/main.scss */
+.buttons-google:hover {
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -101px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 172, ../sass/main.scss */
+  .buttons-google:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -87px;
+    height: 76.5px;
+    width: 217px;
+  }
 }
 
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 176, ../sass/main.scss */
 .buttons-job {
-  background-position: 0 -486px;
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -606px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
 }
-/* line 43, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons-job:hover, .buttons-job.job_hover, .buttons-job.job-hover {
-  background-position: 0 -696px;
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 176, ../sass/main.scss */
+  .buttons-job {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -729px;
+    height: 95px;
+    width: 254px;
+  }
 }
-
-/* line 114, buttons_mobile/*.png */
-.buttons_mobile-sprite, .buttons_mobile-apps_store, .buttons_mobile-apps_store_hoover, .buttons_mobile-contact_us, .buttons_mobile-contact_us_hoover, .buttons_mobile-facebook, .buttons_mobile-facebook_hoover, .buttons_mobile-google, .buttons_mobile-google_hoover, .buttons_mobile-job, .buttons_mobile-job_hoover {
-  background: url('/everydayiplay/img/buttons_mobile-s9e9523e8e5.png') no-repeat;
+/* line 178, ../sass/main.scss */
+.buttons-job:hover {
+  background-image: url('/everydayiplay/img/buttons-s0988757352.png');
+  background-position: 0 -856px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
 }
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-apps_store {
-  background-position: 0 -306px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-apps_store_hoover {
-  background-position: 0 -459px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-contact_us {
-  background-position: 0 -918px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-contact_us_hoover {
-  background-position: 0 -1488px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-facebook {
-  background-position: 0 -612px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-facebook_hoover {
-  background-position: 0 -765px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-google {
-  background-position: 0 0;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-google_hoover {
-  background-position: 0 -153px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-job {
-  background-position: 0 -1298px;
-}
-
-/* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.buttons_mobile-job_hoover {
-  background-position: 0 -1108px;
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+  /* line 178, ../sass/main.scss */
+  .buttons-job:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-s9facfe6f7a.png');
+    background-size: 254px 929px;
+    background-position: 0 -624px;
+    height: 95px;
+    width: 254px;
+  }
 }
 
 /* line 4, ../sass/common.scss */
@@ -638,7 +742,7 @@ footer #logo_footer {
 }
 /* line 143, ../sass/home.scss */
 #about .sticker_container #independent {
-  padding-top: 225px;
+  padding-top: 215px;
 }
 @media screen and (max-width: 1000px) {
   /* line 143, ../sass/home.scss */
@@ -654,7 +758,7 @@ footer #logo_footer {
 }
 /* line 152, ../sass/home.scss */
 #about .sticker_container .sticker {
-  font-size: 4.5em;
+  font-size: 4.2em;
   font-family: "AmaticSCRegular", "sans-serif";
   padding-top: 205px;
   font-weight: 600;
@@ -926,7 +1030,7 @@ footer #logo_footer {
 /*
  * Image replacement
  */
-/* line 147, ../sass/main.scss */
+/* line 199, ../sass/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -935,7 +1039,7 @@ footer #logo_footer {
   *text-indent: -9999px;
 }
 
-/* line 155, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -946,7 +1050,7 @@ footer #logo_footer {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 166, ../sass/main.scss */
+/* line 218, ../sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -955,7 +1059,7 @@ footer #logo_footer {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 175, ../sass/main.scss */
+/* line 227, ../sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -971,7 +1075,7 @@ footer #logo_footer {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 192, ../sass/main.scss */
+/* line 244, ../sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -985,7 +1089,7 @@ footer #logo_footer {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 205, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -1001,7 +1105,7 @@ footer #logo_footer {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 222, ../sass/main.scss */
+/* line 274, ../sass/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1010,7 +1114,7 @@ footer #logo_footer {
   /* 2 */
 }
 
-/* line 227, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -1019,7 +1123,7 @@ footer #logo_footer {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 236, ../sass/main.scss */
+/* line 288, ../sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -1040,7 +1144,7 @@ footer #logo_footer {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 263, ../sass/main.scss */
+  /* line 315, ../sass/main.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -1049,18 +1153,18 @@ footer #logo_footer {
     text-shadow: none !important;
   }
 
-  /* line 271, ../sass/main.scss */
+  /* line 323, ../sass/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 275, ../sass/main.scss */
+  /* line 327, ../sass/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 279, ../sass/main.scss */
+  /* line 331, ../sass/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -1068,33 +1172,33 @@ footer #logo_footer {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 289, ../sass/main.scss */
+  /* line 341, ../sass/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 294, ../sass/main.scss */
+  /* line 346, ../sass/main.scss */
   pre,
   blockquote {
     border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
-  /* line 299, ../sass/main.scss */
+  /* line 351, ../sass/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 304, ../sass/main.scss */
+  /* line 356, ../sass/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 308, ../sass/main.scss */
+  /* line 360, ../sass/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -1103,7 +1207,7 @@ footer #logo_footer {
     margin: 0.5cm;
 }
 
-  /* line 318, ../sass/main.scss */
+  /* line 370, ../sass/main.scss */
   p,
   h2,
   h3 {
@@ -1111,7 +1215,7 @@ footer #logo_footer {
     widows: 3;
   }
 
-  /* line 324, ../sass/main.scss */
+  /* line 376, ../sass/main.scss */
   h2,
   h3 {
     page-break-after: avoid;
