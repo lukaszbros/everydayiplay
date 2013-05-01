@@ -2,6 +2,159 @@
 (function() {
 
   $('document').ready(function() {
+    var animateIndependent, animateStaySmall, animateStickers, animateTopTalent, animationDelay, animationTime, resetStickers;
+    animationTime = 1000;
+    animationDelay = 500;
+    resetStickers = function() {
+      $('#stay_small_sticker').animate({
+        opacity: 0
+      }, function() {
+        return $('#stay_small_sticker').css('position', 'relative').css('left', '-100px').css('top', '100px');
+      });
+      $('#independent_sticker').animate({
+        opacity: 0
+      }, function() {
+        return $('#independent_sticker').css('position', 'relative').css('top', '150px');
+      });
+      return $('#top_talent_sticker').animate({
+        opacity: 0
+      }, function() {
+        return $('#top_talent_sticker').css('position', 'relative').css('right', '-100px').css('top', '100px');
+      });
+    };
+    animateStaySmall = function() {
+      return $('#stay_small_sticker').animate({
+        top: ['-=100', 'swing'],
+        left: ['+=100', 'swing'],
+        opacity: 1
+      }, animationTime);
+    };
+    animateIndependent = function() {
+      return $('#independent_sticker').animate({
+        top: ['-=150', 'swing'],
+        opacity: 1
+      }, animationTime);
+    };
+    animateTopTalent = function() {
+      return $('#top_talent_sticker').animate({
+        top: ['-=100', 'swing'],
+        right: ['+=100', 'swing'],
+        opacity: 1
+      }, animationTime);
+    };
+    animateStickers = function() {
+      resetStickers();
+      animateStaySmall();
+      setTimeout(function() {
+        return animateIndependent();
+      }, animationDelay);
+      return setTimeout(function() {
+        return animateTopTalent();
+      }, animationDelay * 2);
+    };
+    if (document.documentElement.clientWidth > 600) {
+      resetStickers();
+      return $('#about').waypoint(function(direction) {
+        if (direction === 'down') {
+          return animateStickers();
+        }
+      }, {
+        offset: 500
+      });
+    }
+  });
+
+  $('document').ready(function() {
+    var animateViking, backgrounId, isVikingAnimated;
+    backgrounId = Math.floor((Math.random() * 4) + 1);
+    $('#company').css('background-image', 'url(img/main/bg-photo' + backgrounId + '.jpg)');
+    $('#company').parallax("50%", 0.7, false);
+    animateViking = function() {
+      return $('#viking').animate({
+        top: ['-=215', 'swing']
+      }, 1000, function() {
+        return $('#viking').css('z-index', '2');
+      });
+    };
+    $('#viking').css('z-index', '0');
+    if (document.documentElement.clientWidth > 600) {
+      $('#viking').css('top', '350px');
+    } else {
+      $('#viking').css('top', '448px');
+    }
+    if (document.documentElement.clientWidth > 600) {
+      return setTimeout(function() {
+        return animateViking();
+      }, 700);
+    } else {
+      isVikingAnimated = false;
+      return $('#about').waypoint(function() {
+        if (!isVikingAnimated) {
+          isVikingAnimated = true;
+          return animateViking();
+        }
+      }, {
+        offset: 500
+      });
+    }
+  });
+
+  $('document').ready(function() {
+    var init, pendulumswing, rotation, swingtime;
+    rotation = 3;
+    swingtime = 700;
+    init = function() {
+      return $('#get_in_touch_pivot').stop().animate({
+        rotate: rotation
+      }, 0, function() {
+        $('#get_in_touch_pivot').css("display", "block");
+        return pendulumswing();
+      });
+    };
+    pendulumswing = function() {
+      return $('#get_in_touch_pivot').animate({
+        rotate: rotation
+      }, swingtime, "swing", function() {
+        if (rotation === 0) {
+          return;
+        }
+        if (rotation > 0) {
+          rotation -= 0.5;
+        } else {
+          rotation += 0.5;
+        }
+        rotation *= -1;
+        return pendulumswing();
+      });
+    };
+    return $('#contact').waypoint(function(direction) {
+      if (direction === 'down') {
+        rotation = 3;
+        swingtime = 700;
+        return init();
+      }
+    }, {
+      offset: 500
+    });
+  });
+
+  $('document').ready(function() {
+    var slideId;
+    $('#games').parallax("50%", 0.2, false);
+    slideId = 1;
+    return setInterval(function() {
+      return $('#slideshow').fadeOut(function() {
+        slideId += 1;
+        if (slideId > 3) {
+          slideId = 1;
+        }
+        $('#slideshow').css('background-image', 'url(img/main/slide' + slideId + '.png)');
+        return $('#slideshow').fadeIn();
+      });
+    }, 5000);
+  });
+
+  $('document').ready(function() {
     $('#logo_header').click(function(event) {
       event.preventDefault();
       return $('html,body').animate({
