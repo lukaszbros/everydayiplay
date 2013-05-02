@@ -1,1 +1,1 @@
-coffee -o ../js/ --join main -c ../coffee/
+coffee -o ../js/ --join main -cw ../coffee/

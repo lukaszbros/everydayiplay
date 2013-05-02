@@ -27,7 +27,7 @@ http://www.gnu.org/licenses/gpl.html
 		
 		//get the starting position of each element to have parallax applied to it		
 		$this.each(function(){
-		    firstTop = 0;//$this.offset().top;
+		    firstTop = 1500;//$this.offset().top;
 		});
 
 		if (outerHeight) {

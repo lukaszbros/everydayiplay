@@ -4,7 +4,7 @@ $('document').ready ->
   $('#company').css('background-image','url(img/main/bg-photo' + backgrounId + '.jpg)')
   
   #paralax
-  $('#company').parallax("50%", 0.7, false);
+  $('#company').parallax("50%", -0.3);
   
   #viking
   animateViking = -> $('#viking').animate(

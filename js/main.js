@@ -68,7 +68,7 @@
     var animateViking, backgrounId, isVikingAnimated;
     backgrounId = Math.floor((Math.random() * 4) + 1);
     $('#company').css('background-image', 'url(img/main/bg-photo' + backgrounId + '.jpg)');
-    $('#company').parallax("50%", 0.7, false);
+    $('#company').parallax("50%", -0.3);
     animateViking = function() {
       return $('#viking').animate({
         top: ['-=215', 'swing']
@@ -140,7 +140,7 @@
 
   $('document').ready(function() {
     var slideId;
-    $('#games').parallax("50%", 0.2, false);
+    $('#games').parallax("50%", -0.3);
     slideId = 1;
     return setInterval(function() {
       return $('#slideshow').fadeOut(function() {
