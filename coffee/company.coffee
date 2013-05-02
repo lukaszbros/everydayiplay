@@ -7,14 +7,17 @@ $('document').ready ->
   $('#company').parallax("50%", -0.3);
   
   #viking
-  animateViking = -> $('#viking').animate(
-    {top: ['-=215', 'swing']}
-    1000
-    -> 
-     $('#viking').css('z-index','2')
-  )
+  animateViking = -> 
+    $('#viking').css('display','block')
+    $('#viking').animate(
+      {top: ['-=215', 'swing']}
+      1000
+      -> 
+        $('#viking').css('z-index','2')
+    )
   
   $('#viking').css('z-index','0')
+  $('#viking').css('display','none')
   if document.documentElement.clientWidth > 600
     $('#viking').css('top','350px')
   else

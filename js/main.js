@@ -70,6 +70,7 @@
     $('#company').css('background-image', 'url(img/main/bg-photo' + backgrounId + '.jpg)');
     $('#company').parallax("50%", -0.3);
     animateViking = function() {
+      $('#viking').css('display', 'block');
       return $('#viking').animate({
         top: ['-=215', 'swing']
       }, 1000, function() {
@@ -77,6 +78,7 @@
       });
     };
     $('#viking').css('z-index', '0');
+    $('#viking').css('display', 'none');
     if (document.documentElement.clientWidth > 600) {
       $('#viking').css('top', '350px');
     } else {
