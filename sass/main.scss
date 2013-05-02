@@ -140,7 +140,7 @@ $icons-2x: sprite-map("buttons_mobile/*.png", $spacing: 20px);
     height: image-height(sprite-file($icons, $sprite));
     width: image-width(sprite-file($icons, $sprite));
 
-    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 2) {
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
         background-image: sprite-url($icons-2x);
         background-size: (image-width(sprite-path($icons-2x)) / 2) (image-height(sprite-path($icons-2x)) / 2);
         background-position: round(nth(sprite-position($icons-2x, $sprite), 1) / 2) round(nth(sprite-position($icons-2x, $sprite), 2) / 2);
@@ -177,6 +177,18 @@ $icons-2x: sprite-map("buttons_mobile/*.png", $spacing: 20px);
 	@include use-sprite("job");
 	&:hover{ 
 		@include use-sprite("job_hover");	
+	}
+}
+.buttons-logo_header {
+	@include use-sprite("logo_header");
+	&:hover{ 
+		@include use-sprite("logo_header_hover");	
+	}
+}
+.buttons-logo_footer { 
+	@include use-sprite("logo_footer");
+	&:hover{ 
+		@include use-sprite("logo_footer_hover");	
 	}
 }
 

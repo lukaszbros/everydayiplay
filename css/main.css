@@ -1,1 +1,1283 @@
-html,button,input,select,textarea{color:#333}body{font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:3em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}@font-face{font-family:'AmaticSCRegular';src:url("../font/AmaticSC-Regular-webfont.eot");src:url("../font/AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"),url("../font/AmaticSC-Regular-webfont.woff") format("woff"),url("../font/AmaticSC-Regular-webfont.ttf") format("truetype"),url("../font/AmaticSC-Regular-webfont.svg#AmaticSCRegular") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'AmaticBold';src:url("../font/Amatic-Bold-webfont.eot");src:url("../font/Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"),url("../font/Amatic-Bold-webfont.woff") format("woff"),url("../font/Amatic-Bold-webfont.ttf") format("truetype"),url("../font/Amatic-Bold-webfont.svg#AmaticBold") format("svg");font-weight:normal;font-style:normal}.buttons-apps_store{background-image:url('/img/buttons-s0988757352.png');background-position:0 -202px;background-repeat:no-repeat;overflow:hidden;display:block;height:81px;width:222px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-apps_store{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -173px;height:76.5px;width:217px}}.buttons-apps_store:hover{background-image:url('/img/buttons-s0988757352.png');background-position:0 -404px;background-repeat:no-repeat;overflow:hidden;display:block;height:81px;width:222px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-apps_store:hover{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -260px;height:76.5px;width:217px}}.buttons-contact_us{background-image:url('/img/buttons-s0988757352.png');background-position:0 -731px;background-repeat:no-repeat;overflow:hidden;display:block;height:105px;width:264px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-contact_us{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -519px;height:95px;width:254px}}.buttons-contact_us:hover{background-image:url('/img/buttons-s0988757352.png');background-position:0 -981px;background-repeat:no-repeat;overflow:hidden;display:block;height:105px;width:264px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-contact_us:hover{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -834px;height:95px;width:254px}}.buttons-facebook{background-image:url('/img/buttons-s0988757352.png');background-position:0 -303px;background-repeat:no-repeat;overflow:hidden;display:block;height:81px;width:222px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-facebook{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -346px;height:76.5px;width:217px}}.buttons-facebook:hover{background-image:url('/img/buttons-s0988757352.png');background-position:0 -505px;background-repeat:no-repeat;overflow:hidden;display:block;height:81px;width:222px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-facebook:hover{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -433px;height:76.5px;width:217px}}.buttons-google{background-image:url('/img/buttons-s0988757352.png');background-position:0 0;background-repeat:no-repeat;overflow:hidden;display:block;height:81px;width:222px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-google{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 0;height:76.5px;width:217px}}.buttons-google:hover{background-image:url('/img/buttons-s0988757352.png');background-position:0 -101px;background-repeat:no-repeat;overflow:hidden;display:block;height:81px;width:222px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-google:hover{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -87px;height:76.5px;width:217px}}.buttons-job{background-image:url('/img/buttons-s0988757352.png');background-position:0 -606px;background-repeat:no-repeat;overflow:hidden;display:block;height:105px;width:264px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-job{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -729px;height:95px;width:254px}}.buttons-job:hover{background-image:url('/img/buttons-s0988757352.png');background-position:0 -856px;background-repeat:no-repeat;overflow:hidden;display:block;height:105px;width:264px}@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2){.buttons-job:hover{background-image:url('/img/buttons_mobile-s9facfe6f7a.png');background-size:254px 929px;background-position:0 -624px;height:95px;width:254px}}html{overflow-y:scroll}body{background:#fff;font-family:"proxima-nova",sans-serif;font-style:normal;font-weight:300;text-shadow:0px 1px 0px #fff}a{color:#000;text-decoration:none}a:hover{color:#333;text-decoration:underline}p{font-size:1.6em}h1{font-size:1.5em;font-family:"AmaticSCRegular","sans-serif";margin:0 0;font-weight:600}h2{font-size:1em;margin:0 0;font-weight:300}textarea,input{outline:none;border:1px solid #ccc;color:#ccc}textarea.placeholder,input.placeholder{color:#ccc}textarea:-moz-placeholder,input:-moz-placeholder{color:#ccc}textarea::-webkit-input-placeholder,input::-webkit-input-placeholder{color:#ccc}textarea:focus,input:focus{outline:none;border:1px solid #666;color:#666}textarea:focus.placeholder,input:focus.placeholder{color:#666}textarea:focus:-moz-placeholder,input:focus:-moz-placeholder{color:#666}textarea:focus::-webkit-input-placeholder,input:focus::-webkit-input-placeholder{color:#666}.container{width:1250px;margin:auto;overflow:hidden}@media screen and (max-width: 1250px){.container{width:100%}}.white{color:#ffffff}header{z-index:10;background-color:#1a1a1a;height:70px;width:100%;position:fixed;top:0px;-webkit-box-shadow:0px 0px 8px #000;-moz-box-shadow:0px 0px 8px #000;box-shadow:0px 0px 8px #000}header #top_bar #logo_header{margin:10px 0 0 1%;float:left;background-image:url('/img/main/logo_header.png?1367091519');background-image:-webkit-image-set(url('/img/main/logo_header.png?1367091519') 1x, url('/img/main_mobile/logo_header.png?1367091522') 2x);max-width:37px;width:100%;height:48px;background-position:center top;background-repeat:no-repeat;background-size:contain}header #top_bar #logo_header:hover{background-image:url('/img/main/logo_header_hover.png?1367155830');background-image:-webkit-image-set(url('/img/main/logo_header_hover.png?1367155830') 1x, url('/img/main_mobile/logo_header_hover.png?1367155880') 2x);max-width:37px;width:100%;height:48px;background-position:center top;background-repeat:no-repeat;background-size:contain}@media screen and (max-width: 400px){header #top_bar #logo_header{display:none}}header #top_bar #menu{float:right;line-height:70px;width:320px}@media screen and (max-width: 400px){header #top_bar #menu{float:none;margin:auto}}header #top_bar #menu a{color:#ddd;text-decoration:none;padding-left:11%;font-weight:600;text-shadow:none}header #top_bar #menu a:hover{color:#fff}footer{height:120px;background-color:#1a1a1a}footer #logo_footer{background-image:url('/img/main/logo_footer.png?1367091519');background-image:-webkit-image-set(url('/img/main/logo_footer.png?1367091519') 1x, url('/img/main_mobile/logo_footer.png?1367091522') 2x);max-width:239px;width:100%;height:42px;background-position:center top;background-repeat:no-repeat;background-size:contain;margin:auto;top:30px;position:relative}#main_content{margin-top:70px}#company{background-image:url('/img/main/bg-photo1.jpg?1367091518');background-position:center top;background-repeat:no-repeat;height:680px;width:100%}#company #logo{background-image:url('/img/main/logo.png?1367091519');background-image:-webkit-image-set(url('/img/main/logo.png?1367091519') 1x, url('/img/main_mobile/logo.png?1367091522') 2x);max-width:523px;width:100%;height:309px;background-position:center top;background-repeat:no-repeat;background-size:contain;width:96%;margin:10px auto;position:relative;top:30px;display:block}@media screen and (max-width: 600px){#company #logo{top:100px}}#company #viking{background-image:url('/img/main/viking.png?1367091520');background-image:-webkit-image-set(url('/img/main/viking.png?1367091520') 1x, url('/img/main_mobile/viking.png?1367091523') 2x);max-width:530px;width:100%;height:287px;background-position:center top;background-repeat:no-repeat;background-size:contain;margin:auto;position:relative;top:135px;z-index:2}@media screen and (max-width: 600px){#company #viking{width:300px;top:233px}}#about{background-image:url('/img/main/wood_pattern.png?1367091520');height:750px;width:100%;z-index:1;position:relative}#about #top_rules{position:relative;margin:auto;width:1032px;margin-top:50px;font-weight:600}@media screen and (max-width: 1000px){#about #top_rules{width:100%}}#about #top_rules #rules_vision{font-size:4.5em;width:48%;float:left;line-height:1;font-weight:900;padding:0 1% 0 1%}@media screen and (max-width: 1000px){#about #top_rules #rules_vision{float:none;margin:auto;text-align:center;width:100%}}#about #top_rules #rules_text{font-size:1.6em;width:48%;float:right;margin-top:22px;padding:0 1% 0 1%}@media screen and (max-width: 1000px){#about #top_rules #rules_text{float:none;margin:auto;text-align:center;width:100%}}@media screen and (max-width: 470px){#about #top_rules #rules_text{font-size:1.2em}}#about #stay_small_sticker_container{margin-top:57px}#about #independent_sticker_container{margin-top:25px}#about .sticker_container{width:27%;margin:50px 3% 0 3%;float:left;line-height:0.6;text-align:center}@media screen and (max-width: 600px){#about .sticker_container{float:none;width:300px;height:90px;margin:auto}}#about .sticker_container #stay_small_sticker{background-image:url('/img/main/paper-sheet-1.png?1367091519');background-image:-webkit-image-set(url('/img/main/paper-sheet-1.png?1367091519') 1x, url('/img/main_mobile/paper-sheet-1.png?1367091523') 2x);max-width:281px;width:100%;height:333px;background-position:center top;background-repeat:no-repeat;background-size:contain;margin:auto}@media screen and (max-width: 1000px){#about .sticker_container #stay_small_sticker{width:200px;height:260px;background-size:contain}}@media screen and (max-width: 600px){#about .sticker_container #stay_small_sticker{background:none;width:100%}}#about .sticker_container #independent_sticker{background-image:url('/img/main/paper-sheet-2.png?1367091519');background-image:-webkit-image-set(url('/img/main/paper-sheet-2.png?1367091519') 1x, url('/img/main_mobile/paper-sheet-2.png?1367091523') 2x);max-width:314px;width:100%;height:363px;background-position:center top;background-repeat:no-repeat;background-size:contain;margin:auto}@media screen and (max-width: 1000px){#about .sticker_container #independent_sticker{width:200px;height:260px;background-size:contain}}@media screen and (max-width: 600px){#about .sticker_container #independent_sticker{background:none;width:100%}}#about .sticker_container #top_talent_sticker{background-image:url('/img/main/paper-sheet-3.png?1367091519');background-image:-webkit-image-set(url('/img/main/paper-sheet-3.png?1367091519') 1x, url('/img/main_mobile/paper-sheet-3.png?1367091523') 2x);max-width:299px;width:100%;height:338px;background-position:center top;background-repeat:no-repeat;background-size:contain;margin:auto}@media screen and (max-width: 1000px){#about .sticker_container #top_talent_sticker{width:200px;height:260px;background-size:contain}}@media screen and (max-width: 600px){#about .sticker_container #top_talent_sticker{background:none;width:100%}}#about .sticker_container #stay_small{padding-left:9px}#about .sticker_container #independent{padding-top:215px}@media screen and (max-width: 1000px){#about .sticker_container #independent{padding-top:150px}}@media screen and (max-width: 600px){#about .sticker_container #independent{padding-top:0px}}#about .sticker_container .sticker{font-size:4.2em;font-family:"AmaticSCRegular","sans-serif";padding-top:205px;font-weight:600}@media screen and (max-width: 1000px){#about .sticker_container .sticker{font-size:3em;padding-top:150px}}@media screen and (max-width: 600px){#about .sticker_container .sticker{padding-top:0px}}#about .sticker_container .sticker .small{font-weight:300;font-size:0.6em}#about .sticker_container .sticker_subtitle{font-size:1em;line-height:1.4;font-weight:600}@media screen and (max-width: 600px){#about .sticker_container .sticker_subtitle{display:none}}#games{background-image:url('/img/main/bg-photo5.jpg?1367091518');background-position:center top;background-repeat:no-repeat;height:750px;width:100%;position:relative}#games #game_logo{background-image:url('/img/main/game-logo.png?1367091518');background-image:-webkit-image-set(url('/img/main/game-logo.png?1367091518') 1x, url('/img/main_mobile/game-logo.png?1367091520') 2x);max-width:685px;width:100%;height:362px;background-position:center top;background-repeat:no-repeat;background-size:contain;max-width:685px;width:70%;background-position:center top;background-repeat:no-repeat;float:left;position:relative;top:75px;background-size:contain}@media screen and (max-width: 1000px){#games #game_logo{width:100%}}@media screen and (max-width: 600px){#games #game_logo{width:300px;top:30px;float:none;margin:auto}}#games #tablet{background-image:url('/img/main/ipad.png?1367091519');background-image:-webkit-image-set(url('/img/main/ipad.png?1367091519') 1x, url('/img/main_mobile/ipad.png?1367091522') 2x);max-width:769px;width:100%;height:582px;background-position:center top;background-repeat:no-repeat;background-size:contain;width:70%;background-position:right top;background-size:cover;float:left}@media screen and (max-width: 600px){#games #tablet{width:100%}}#games .buttons-apps_store{width:222px;height:81px}#games .buttons-google{width:222px;height:81px}#games .buttons-facebook{width:222px;height:81px}#games #schetches{float:right;width:30%;margin-top:80px}@media screen and (max-width: 600px){#games #schetches{float:none;margin:auto;width:300px;height:250px;margin-top:-180px}}#games #schetches #slideshow{background-image:url('/img/main/slide1.png?1367091519');background-image:-webkit-image-set(url('/img/main/slide1.png?1367091519') 1x, url('/img/main_mobile/slide1.png?1367091523') 2x);max-width:383px;width:100%;height:383px;background-position:center top;background-repeat:no-repeat;background-size:contain;max-width:383px;background-position:center top;background-repeat:no-repeat;width:100%;background-size:contain}#games #schetches #description{font-size:1.3em;font-weight:600;line-height:1.2}@media screen and (max-width: 1000px){#games #schetches #description{display:none}}#games #shops{position:absolute;top:660px}@media screen and (max-width: 1070px){#games #shops{width:250px;top:490px;left:50px}}#games #shops a{display:inline-block;margin:0 5px 0 5px}#contact{background-image:url('/img/main/bg-photo6.jpg?1367155794');background-position:center top;background-repeat:no-repeat;height:750px;width:100%;overflow:hidden;z-index:1;position:relative}#contact #get_in_touch_pivot{margin:auto;margin-top:15px;width:100%;height:50px}#contact #get_in_touch{background-image:url('/img/main/hanging_note.png?1367155816');background-image:-webkit-image-set(url('/img/main/hanging_note.png?1367155816') 1x, url('/img/main_mobile/hanging_note.png?1367155878') 2x);max-width:505px;width:100%;height:484px;background-position:center top;background-repeat:no-repeat;background-size:contain;margin:auto;margin-top:15px}@media screen and (max-width: 600px){#contact #get_in_touch{width:300px;height:400px}}#contact #get_in_touch #get_in_touch_text{text-align:center;font-family:"AmaticSCRegular","sans-serif";font-size:2em;font-weight:600;position:relative;top:170px;line-height:1}@media screen and (max-width: 600px){#contact #get_in_touch #get_in_touch_text{font-size:1.2em;top:100px}}#contact #get_in_touch #get_in_touch_text #get_in_touch_title{font-size:3em;line-height:1.4}#contact #contact_us{width:264px;height:105px;margin:auto;display:block;margin-top:443px}@media screen and (max-width: 600px){#contact #contact_us{margin-top:360px}}#contact #job{width:264px;height:105px;margin:auto;display:block;margin-top:10px}.ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}.ir:before{content:"";display:block;width:0;height:150%}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 19, ../sass/main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #333333;
+}
+
+/* line 23, ../sass/main.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 34, ../sass/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 39, ../sass/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 48, ../sass/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 3em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 61, ../sass/main.scss */
+img {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 69, ../sass/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 79, ../sass/main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+/* line 87, ../sass/main.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+@font-face {
+  font-family: 'AmaticSCRegular';
+  src: url("../font/AmaticSC-Regular-webfont.eot");
+  src: url("../font/AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/AmaticSC-Regular-webfont.woff") format("woff"), url("../font/AmaticSC-Regular-webfont.ttf") format("truetype"), url("../font/AmaticSC-Regular-webfont.svg#AmaticSCRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AmaticBold';
+  src: url("../font/Amatic-Bold-webfont.eot");
+  src: url("../font/Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Amatic-Bold-webfont.woff") format("woff"), url("../font/Amatic-Bold-webfont.ttf") format("truetype"), url("../font/Amatic-Bold-webfont.svg#AmaticBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+                       /*@import "buttons/*.png";
+@include all-buttons-sprites;
+@import "buttons_mobile/*.png";
+@include all-buttons_mobile-sprites;*/
+/* line 152, ../sass/main.scss */
+.buttons-apps_store {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -202px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 152, ../sass/main.scss */
+  .buttons-apps_store {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -173px;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+/* line 154, ../sass/main.scss */
+.buttons-apps_store:hover {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -404px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 154, ../sass/main.scss */
+  .buttons-apps_store:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -260px;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+
+/* line 158, ../sass/main.scss */
+.buttons-contact_us {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -731px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 158, ../sass/main.scss */
+  .buttons-contact_us {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -570px;
+    height: 95px;
+    width: 254px;
+  }
+}
+/* line 160, ../sass/main.scss */
+.buttons-contact_us:hover {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -981px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 160, ../sass/main.scss */
+  .buttons-contact_us:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -936px;
+    height: 95px;
+    width: 254px;
+  }
+}
+
+/* line 164, ../sass/main.scss */
+.buttons-facebook {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -303px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 164, ../sass/main.scss */
+  .buttons-facebook {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -397px;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+/* line 166, ../sass/main.scss */
+.buttons-facebook:hover {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -505px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 166, ../sass/main.scss */
+  .buttons-facebook:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -484px;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+
+/* line 170, ../sass/main.scss */
+.buttons-google {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 170, ../sass/main.scss */
+  .buttons-google {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 0;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+/* line 172, ../sass/main.scss */
+.buttons-google:hover {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -101px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 81px;
+  width: 222px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 172, ../sass/main.scss */
+  .buttons-google:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -87px;
+    height: 76.5px;
+    width: 217px;
+  }
+}
+
+/* line 176, ../sass/main.scss */
+.buttons-job {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -606px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 176, ../sass/main.scss */
+  .buttons-job {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -831px;
+    height: 95px;
+    width: 254px;
+  }
+}
+/* line 178, ../sass/main.scss */
+.buttons-job:hover {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -856px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 105px;
+  width: 264px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 178, ../sass/main.scss */
+  .buttons-job:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -726px;
+    height: 95px;
+    width: 254px;
+  }
+}
+
+/* line 182, ../sass/main.scss */
+.buttons-logo_header {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -1298px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 48px;
+  width: 37px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 182, ../sass/main.scss */
+  .buttons-logo_header {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -1099px;
+    height: 47.5px;
+    width: 36.5px;
+  }
+}
+/* line 184, ../sass/main.scss */
+.buttons-logo_header:hover {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -1230px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 48px;
+  width: 37px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 184, ../sass/main.scss */
+  .buttons-logo_header:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -1041px;
+    height: 47.5px;
+    width: 36.5px;
+  }
+}
+
+/* line 188, ../sass/main.scss */
+.buttons-logo_footer {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -1168px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 42px;
+  width: 239px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 188, ../sass/main.scss */
+  .buttons-logo_footer {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -675px;
+    height: 41px;
+    width: 239px;
+  }
+}
+/* line 190, ../sass/main.scss */
+.buttons-logo_footer:hover {
+  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
+  background-position: 0 -1106px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 42px;
+  width: 239px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  /* line 190, ../sass/main.scss */
+  .buttons-logo_footer:hover {
+    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
+    background-size: 254px 1146px;
+    background-position: 0 -346px;
+    height: 41px;
+    width: 239px;
+  }
+}
+
+/* line 4, ../sass/common.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 8, ../sass/common.scss */
+body {
+  background: white;
+  font-family: "proxima-nova", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-shadow: 0px 1px 0px white;
+}
+
+/* line 16, ../sass/common.scss */
+a {
+  color: black;
+  text-decoration: none;
+}
+/* line 19, ../sass/common.scss */
+a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+/* line 25, ../sass/common.scss */
+p {
+  font-size: 1.6em;
+}
+
+/* line 29, ../sass/common.scss */
+h1 {
+  font-size: 1.5em;
+  font-family: "AmaticSCRegular", "sans-serif";
+  margin: 0 0;
+  font-weight: 600;
+}
+
+/* line 35, ../sass/common.scss */
+h2 {
+  font-size: 1em;
+  margin: 0 0;
+  font-weight: 300;
+}
+
+/* line 41, ../sass/common.scss */
+textarea, input {
+  outline: none;
+  border: 1px solid #cccccc;
+  color: #cccccc;
+}
+/* line 26, ../sass/config.scss */
+textarea.placeholder, input.placeholder {
+  color: #cccccc;
+}
+/* line 29, ../sass/config.scss */
+textarea:-moz-placeholder, input:-moz-placeholder {
+  color: #cccccc;
+}
+/* line 32, ../sass/config.scss */
+textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+/* line 46, ../sass/common.scss */
+textarea:focus, input:focus {
+  outline: none;
+  border: 1px solid #666666;
+  color: #666666;
+}
+/* line 26, ../sass/config.scss */
+textarea:focus.placeholder, input:focus.placeholder {
+  color: #666666;
+}
+/* line 29, ../sass/config.scss */
+textarea:focus:-moz-placeholder, input:focus:-moz-placeholder {
+  color: #666666;
+}
+/* line 32, ../sass/config.scss */
+textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholder {
+  color: #666666;
+}
+
+/* line 54, ../sass/common.scss */
+.container {
+  width: 1250px;
+  margin: auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 1250px) {
+  /* line 54, ../sass/common.scss */
+  .container {
+    width: 100%;
+  }
+}
+
+/* line 63, ../sass/common.scss */
+.white {
+  color: #ffffff;
+}
+
+/* line 68, ../sass/common.scss */
+header {
+  z-index: 10;
+  background-color: #1a1a1a;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  -webkit-box-shadow: 0px 0px 8px black;
+  -moz-box-shadow: 0px 0px 8px black;
+  box-shadow: 0px 0px 8px black;
+}
+/* line 78, ../sass/common.scss */
+header #top_bar #logo_header {
+  margin: 10px 0 0 1%;
+  float: left;
+  /*@include image-div('logo_header.png');
+  &:hover {
+  	@include image-div('logo_header_hover.png');
+  }*/
+}
+@media screen and (max-width: 400px) {
+  /* line 78, ../sass/common.scss */
+  header #top_bar #logo_header {
+    display: none;
+  }
+}
+/* line 89, ../sass/common.scss */
+header #top_bar #menu {
+  float: right;
+  line-height: 70px;
+  width: 320px;
+}
+@media screen and (max-width: 400px) {
+  /* line 89, ../sass/common.scss */
+  header #top_bar #menu {
+    float: none;
+    margin: auto;
+  }
+}
+/* line 97, ../sass/common.scss */
+header #top_bar #menu a {
+  color: #dddddd;
+  text-decoration: none;
+  padding-left: 11%;
+  font-weight: 600;
+  text-shadow: none;
+}
+/* line 103, ../sass/common.scss */
+header #top_bar #menu a:hover {
+  color: white;
+}
+
+/* line 112, ../sass/common.scss */
+footer {
+  height: 120px;
+  background-color: #1a1a1a;
+}
+/* line 115, ../sass/common.scss */
+footer #logo_footer {
+  /*@include image-div('logo_footer.png');*/
+  margin: auto;
+  top: 30px;
+  position: relative;
+}
+
+/* line 3, ../sass/home.scss */
+#main_content {
+  margin-top: 70px;
+}
+
+/* line 7, ../sass/home.scss */
+#company {
+  background-image: url('/everydayiplay/img/main/bg-photo1.jpg?1367534749');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 680px;
+  width: 100%;
+}
+/* line 13, ../sass/home.scss */
+#company #logo {
+  background-image: url('/everydayiplay/img/main/logo.png?1367534753');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo.png?1367534753') 1x, url('/everydayiplay/img/main_mobile/logo.png?1367534760') 2x);
+  max-width: 523px;
+  width: 100%;
+  height: 309px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 96%;
+  margin: 10px auto;
+  position: relative;
+  top: 30px;
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  /* line 13, ../sass/home.scss */
+  #company #logo {
+    top: 100px;
+  }
+}
+/* line 24, ../sass/home.scss */
+#company #viking {
+  background-image: url('/everydayiplay/img/main/viking.png?1367534756');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/viking.png?1367534756') 1x, url('/everydayiplay/img/main_mobile/viking.png?1367534764') 2x);
+  max-width: 530px;
+  width: 100%;
+  height: 287px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  position: relative;
+  top: 135px;
+  z-index: 2;
+}
+@media screen and (max-width: 600px) {
+  /* line 24, ../sass/home.scss */
+  #company #viking {
+    width: 300px;
+    top: 233px;
+  }
+}
+
+/* line 37, ../sass/home.scss */
+#about {
+  background-image: url('/everydayiplay/img/main/wood_pattern.png?1367534756');
+  height: 750px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+/* line 43, ../sass/home.scss */
+#about #top_rules {
+  position: relative;
+  margin: auto;
+  width: 1032px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1000px) {
+  /* line 43, ../sass/home.scss */
+  #about #top_rules {
+    width: 100%;
+  }
+}
+/* line 52, ../sass/home.scss */
+#about #top_rules #rules_vision {
+  font-size: 4.5em;
+  width: 48%;
+  float: left;
+  line-height: 1;
+  font-weight: 900;
+  padding: 0 1% 0 1%;
+}
+@media screen and (max-width: 1000px) {
+  /* line 52, ../sass/home.scss */
+  #about #top_rules #rules_vision {
+    float: none;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* line 66, ../sass/home.scss */
+#about #top_rules #rules_text {
+  font-size: 1.6em;
+  width: 48%;
+  float: right;
+  margin-top: 22px;
+  padding: 0 1% 0 1%;
+}
+@media screen and (max-width: 1000px) {
+  /* line 66, ../sass/home.scss */
+  #about #top_rules #rules_text {
+    float: none;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 470px) {
+  /* line 66, ../sass/home.scss */
+  #about #top_rules #rules_text {
+    font-size: 1.2em;
+  }
+}
+/* line 83, ../sass/home.scss */
+#about #stay_small_sticker_container {
+  margin-top: 57px;
+}
+/* line 86, ../sass/home.scss */
+#about #independent_sticker_container {
+  margin-top: 25px;
+}
+/* line 89, ../sass/home.scss */
+#about .sticker_container {
+  width: 27%;
+  margin: 50px 3% 0 3%;
+  float: left;
+  line-height: 0.6;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  /* line 89, ../sass/home.scss */
+  #about .sticker_container {
+    float: none;
+    width: 300px;
+    height: 90px;
+    margin: auto;
+  }
+}
+/* line 101, ../sass/home.scss */
+#about .sticker_container #stay_small_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-1.png?1367534754');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-1.png?1367534754') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-1.png?1367534761') 2x);
+  max-width: 281px;
+  width: 100%;
+  height: 333px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+@media screen and (max-width: 1000px) {
+  /* line 101, ../sass/home.scss */
+  #about .sticker_container #stay_small_sticker {
+    width: 200px;
+    height: 260px;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 101, ../sass/home.scss */
+  #about .sticker_container #stay_small_sticker {
+    background: none;
+    width: 100%;
+  }
+}
+/* line 114, ../sass/home.scss */
+#about .sticker_container #independent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-2.png?1367534754');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-2.png?1367534754') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-2.png?1367534761') 2x);
+  max-width: 314px;
+  width: 100%;
+  height: 363px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+@media screen and (max-width: 1000px) {
+  /* line 114, ../sass/home.scss */
+  #about .sticker_container #independent_sticker {
+    width: 200px;
+    height: 260px;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 114, ../sass/home.scss */
+  #about .sticker_container #independent_sticker {
+    background: none;
+    width: 100%;
+  }
+}
+/* line 127, ../sass/home.scss */
+#about .sticker_container #top_talent_sticker {
+  background-image: url('/everydayiplay/img/main/paper-sheet-3.png?1367534754');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-3.png?1367534754') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-3.png?1367534762') 2x);
+  max-width: 299px;
+  width: 100%;
+  height: 338px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+@media screen and (max-width: 1000px) {
+  /* line 127, ../sass/home.scss */
+  #about .sticker_container #top_talent_sticker {
+    width: 200px;
+    height: 260px;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 127, ../sass/home.scss */
+  #about .sticker_container #top_talent_sticker {
+    background: none;
+    width: 100%;
+  }
+}
+/* line 140, ../sass/home.scss */
+#about .sticker_container #stay_small {
+  padding-left: 9px;
+}
+/* line 143, ../sass/home.scss */
+#about .sticker_container #independent {
+  padding-top: 215px;
+}
+@media screen and (max-width: 1000px) {
+  /* line 143, ../sass/home.scss */
+  #about .sticker_container #independent {
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 143, ../sass/home.scss */
+  #about .sticker_container #independent {
+    padding-top: 0px;
+  }
+}
+/* line 152, ../sass/home.scss */
+#about .sticker_container .sticker {
+  font-size: 4.2em;
+  font-family: "AmaticSCRegular", "sans-serif";
+  padding-top: 205px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1000px) {
+  /* line 152, ../sass/home.scss */
+  #about .sticker_container .sticker {
+    font-size: 3em;
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 152, ../sass/home.scss */
+  #about .sticker_container .sticker {
+    padding-top: 0px;
+  }
+}
+/* line 164, ../sass/home.scss */
+#about .sticker_container .sticker .small {
+  font-weight: 300;
+  font-size: 0.6em;
+}
+/* line 169, ../sass/home.scss */
+#about .sticker_container .sticker_subtitle {
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  /* line 169, ../sass/home.scss */
+  #about .sticker_container .sticker_subtitle {
+    display: none;
+  }
+}
+
+/* line 180, ../sass/home.scss */
+#games {
+  background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367534751');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+  position: relative;
+}
+/* line 187, ../sass/home.scss */
+#games #game_logo {
+  background-image: url('/everydayiplay/img/main/game-logo.png?1367534751');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/game-logo.png?1367534751') 1x, url('/everydayiplay/img/main_mobile/game-logo.png?1367534757') 2x);
+  max-width: 685px;
+  width: 100%;
+  height: 362px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 685px;
+  width: 70%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+  top: 75px;
+  background-size: contain;
+}
+@media screen and (max-width: 1000px) {
+  /* line 187, ../sass/home.scss */
+  #games #game_logo {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 187, ../sass/home.scss */
+  #games #game_logo {
+    width: 300px;
+    top: 30px;
+    float: none;
+    margin: auto;
+  }
+}
+/* line 207, ../sass/home.scss */
+#games #tablet {
+  background-image: url('/everydayiplay/img/main/ipad.png?1367534753');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/ipad.png?1367534753') 1x, url('/everydayiplay/img/main_mobile/ipad.png?1367534760') 2x);
+  max-width: 769px;
+  width: 100%;
+  height: 582px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70%;
+  background-position: right top;
+  background-size: cover;
+  float: left;
+}
+@media screen and (max-width: 600px) {
+  /* line 207, ../sass/home.scss */
+  #games #tablet {
+    width: 100%;
+  }
+}
+/* line 217, ../sass/home.scss */
+#games .buttons-apps_store {
+  width: 222px;
+  height: 81px;
+}
+/* line 221, ../sass/home.scss */
+#games .buttons-google {
+  width: 222px;
+  height: 81px;
+}
+/* line 225, ../sass/home.scss */
+#games .buttons-facebook {
+  width: 222px;
+  height: 81px;
+}
+/* line 229, ../sass/home.scss */
+#games #schetches {
+  float: right;
+  width: 30%;
+  margin-top: 80px;
+}
+@media screen and (max-width: 600px) {
+  /* line 229, ../sass/home.scss */
+  #games #schetches {
+    float: none;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    margin-top: -180px;
+  }
+}
+/* line 240, ../sass/home.scss */
+#games #schetches #slideshow {
+  background-image: url('/everydayiplay/img/main/slide1.png?1367534755');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/slide1.png?1367534755') 1x, url('/everydayiplay/img/main_mobile/slide1.png?1367534762') 2x);
+  max-width: 383px;
+  width: 100%;
+  height: 383px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 383px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: contain;
+}
+/* line 251, ../sass/home.scss */
+#games #schetches #description {
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+@media screen and (max-width: 1000px) {
+  /* line 251, ../sass/home.scss */
+  #games #schetches #description {
+    display: none;
+  }
+}
+/* line 260, ../sass/home.scss */
+#games #shops {
+  position: absolute;
+  top: 660px;
+}
+@media screen and (max-width: 1070px) {
+  /* line 260, ../sass/home.scss */
+  #games #shops {
+    width: 250px;
+    top: 490px;
+    left: 50px;
+  }
+}
+/* line 268, ../sass/home.scss */
+#games #shops a {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+/* line 275, ../sass/home.scss */
+#contact {
+  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367534751');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+/* line 284, ../sass/home.scss */
+#contact #get_in_touch_pivot {
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+  height: 50px;
+}
+/* line 290, ../sass/home.scss */
+#contact #get_in_touch {
+  background-image: url('/everydayiplay/img/main/hanging_note.png?1367534752');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/hanging_note.png?1367534752') 1x, url('/everydayiplay/img/main_mobile/hanging_note.png?1367534758') 2x);
+  max-width: 505px;
+  width: 100%;
+  height: 484px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  margin-top: 15px;
+}
+@media screen and (max-width: 600px) {
+  /* line 290, ../sass/home.scss */
+  #contact #get_in_touch {
+    width: 300px;
+    height: 400px;
+  }
+}
+/* line 298, ../sass/home.scss */
+#contact #get_in_touch #get_in_touch_text {
+  text-align: center;
+  font-family: "AmaticSCRegular", "sans-serif";
+  font-size: 2em;
+  font-weight: 600;
+  position: relative;
+  top: 170px;
+  line-height: 1;
+}
+@media screen and (max-width: 600px) {
+  /* line 298, ../sass/home.scss */
+  #contact #get_in_touch #get_in_touch_text {
+    font-size: 1.2em;
+    top: 100px;
+  }
+}
+/* line 310, ../sass/home.scss */
+#contact #get_in_touch #get_in_touch_text #get_in_touch_title {
+  font-size: 3em;
+  line-height: 1.4;
+}
+/* line 316, ../sass/home.scss */
+#contact #contact_us {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
+  margin-top: 443px;
+}
+@media screen and (max-width: 600px) {
+  /* line 316, ../sass/home.scss */
+  #contact #contact_us {
+    margin-top: 360px;
+  }
+}
+/* line 326, ../sass/home.scss */
+#contact #job {
+  width: 264px;
+  height: 105px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+/*
+  Welcome to Compass. Use this file to define print styles.
+  Import this file using the following HTML or equivalent:
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+*/
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 211, ../sass/main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 219, ../sass/main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 230, ../sass/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 239, ../sass/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 256, ../sass/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 269, ../sass/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 286, ../sass/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 291, ../sass/main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 300, ../sass/main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 327, ../sass/main.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 335, ../sass/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 339, ../sass/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 343, ../sass/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 353, ../sass/main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 358, ../sass/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 363, ../sass/main.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 368, ../sass/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 372, ../sass/main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 382, ../sass/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 388, ../sass/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

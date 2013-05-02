@@ -78,10 +78,10 @@ header {
         #logo_header {
         	margin: 10px 0 0 1%;
             float:left;
-          	@include image-div('logo_header.png');
+          	/*@include image-div('logo_header.png');
           	&:hover {
           		@include image-div('logo_header_hover.png');
-          	}
+          	}*/
           	@media screen and (max-width: $breakMenu) {
           		display: none;
           	}
@@ -113,7 +113,7 @@ footer {
 	height:120px;
 	background-color: $headerGrey;
 	#logo_footer {
-		@include image-div('logo_footer.png');
+		/*@include image-div('logo_footer.png');*/
 		margin: auto;		
 		top: 30px;
 		position: relative;
