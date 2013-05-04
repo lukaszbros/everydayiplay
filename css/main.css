@@ -125,6 +125,9 @@ textarea {
   display: block;
   height: 81px;
   width: 222px;
+  /*&:hover{ 
+  	@include use-sprite("apps_store_hover");	
+  }*/
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
   /* line 152, ../sass/main.scss */
@@ -132,26 +135,6 @@ textarea {
     background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
     background-size: 254px 1146px;
     background-position: 0 -173px;
-    height: 76.5px;
-    width: 217px;
-  }
-}
-/* line 154, ../sass/main.scss */
-.buttons-apps_store:hover {
-  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
-  background-position: 0 -404px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: block;
-  height: 81px;
-  width: 222px;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-  /* line 154, ../sass/main.scss */
-  .buttons-apps_store:hover {
-    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
-    background-size: 254px 1146px;
-    background-position: 0 -260px;
     height: 76.5px;
     width: 217px;
   }
@@ -207,6 +190,9 @@ textarea {
   display: block;
   height: 81px;
   width: 222px;
+  /*&:hover{ 
+  	@include use-sprite("facebook_hover");	
+  }*/
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
   /* line 164, ../sass/main.scss */
@@ -214,26 +200,6 @@ textarea {
     background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
     background-size: 254px 1146px;
     background-position: 0 -397px;
-    height: 76.5px;
-    width: 217px;
-  }
-}
-/* line 166, ../sass/main.scss */
-.buttons-facebook:hover {
-  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
-  background-position: 0 -505px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: block;
-  height: 81px;
-  width: 222px;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-  /* line 166, ../sass/main.scss */
-  .buttons-facebook:hover {
-    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
-    background-size: 254px 1146px;
-    background-position: 0 -484px;
     height: 76.5px;
     width: 217px;
   }
@@ -248,6 +214,9 @@ textarea {
   display: block;
   height: 81px;
   width: 222px;
+  /*&:hover{ 
+  	@include use-sprite("google_hover");	
+  }*/
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
   /* line 170, ../sass/main.scss */
@@ -255,26 +224,6 @@ textarea {
     background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
     background-size: 254px 1146px;
     background-position: 0 0;
-    height: 76.5px;
-    width: 217px;
-  }
-}
-/* line 172, ../sass/main.scss */
-.buttons-google:hover {
-  background-image: url('/everydayiplay/img/buttons-s085db47768.png');
-  background-position: 0 -101px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: block;
-  height: 81px;
-  width: 222px;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
-  /* line 172, ../sass/main.scss */
-  .buttons-google:hover {
-    background-image: url('/everydayiplay/img/buttons_mobile-sc99f0e9cec.png');
-    background-size: 254px 1146px;
-    background-position: 0 -87px;
     height: 76.5px;
     width: 217px;
   }
@@ -454,15 +403,15 @@ textarea, input {
   border: 1px solid #cccccc;
   color: #cccccc;
 }
-/* line 26, ../sass/config.scss */
+/* line 27, ../sass/config.scss */
 textarea.placeholder, input.placeholder {
   color: #cccccc;
 }
-/* line 29, ../sass/config.scss */
+/* line 30, ../sass/config.scss */
 textarea:-moz-placeholder, input:-moz-placeholder {
   color: #cccccc;
 }
-/* line 32, ../sass/config.scss */
+/* line 33, ../sass/config.scss */
 textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
   color: #cccccc;
 }
@@ -472,15 +421,15 @@ textarea:focus, input:focus {
   border: 1px solid #666666;
   color: #666666;
 }
-/* line 26, ../sass/config.scss */
+/* line 27, ../sass/config.scss */
 textarea:focus.placeholder, input:focus.placeholder {
   color: #666666;
 }
-/* line 29, ../sass/config.scss */
+/* line 30, ../sass/config.scss */
 textarea:focus:-moz-placeholder, input:focus:-moz-placeholder {
   color: #666666;
 }
-/* line 32, ../sass/config.scss */
+/* line 33, ../sass/config.scss */
 textarea:focus::-webkit-input-placeholder, input:focus::-webkit-input-placeholder {
   color: #666666;
 }
@@ -576,28 +525,28 @@ footer #logo_footer {
 
 /* line 7, ../sass/home.scss */
 #company {
-  background-image: url('/everydayiplay/img/main/bg-photo1.jpg?1367645554');
+  background-image: url('/everydayiplay/img/main/bg-photo1.jpg?1367670080');
   background-position: center top;
   background-repeat: no-repeat;
   height: 680px;
   width: 100%;
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1070px) {
   /* line 7, ../sass/home.scss */
   #company {
-    background-image: url('/everydayiplay/img/main_tablet/bg-photo1.jpg?1367645578');
+    background-image: url('/everydayiplay/img/main_tablet/bg-photo1.jpg?1367670094');
   }
 }
 @media screen and (max-width: 600px) {
   /* line 7, ../sass/home.scss */
   #company {
-    background-image: url('/everydayiplay/img/main_mobile/bg-photo1.jpg?1367645590');
+    background-image: url('/everydayiplay/img/main_mobile/bg-photo1.jpg?1367670104');
   }
 }
 /* line 19, ../sass/home.scss */
 #company #logo {
   background-image: url('/everydayiplay/img/main/logo.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/logo.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/logo.png?1367537031') 2x);
   max-width: 523px;
   width: 100%;
   height: 309px;
@@ -613,13 +562,19 @@ footer #logo_footer {
 @media screen and (max-width: 600px) {
   /* line 19, ../sass/home.scss */
   #company #logo {
+    background-image: -webkit-image-set(url('/everydayiplay/img/main/logo.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/logo.png?1367537031') 2x);
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 19, ../sass/home.scss */
+  #company #logo {
     top: 100px;
   }
 }
 /* line 30, ../sass/home.scss */
 #company #viking {
   background-image: url('/everydayiplay/img/main/viking.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/viking.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/viking.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/viking.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/viking.png?1367537031') 2x);
   max-width: 530px;
   width: 100%;
   height: 287px;
@@ -630,6 +585,12 @@ footer #logo_footer {
   position: relative;
   top: 135px;
   z-index: 2;
+}
+@media screen and (max-width: 600px) {
+  /* line 30, ../sass/home.scss */
+  #company #viking {
+    background-image: -webkit-image-set(url('/everydayiplay/img/main/viking.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/viking.png?1367670126') 2x);
+  }
 }
 @media screen and (max-width: 600px) {
   /* line 30, ../sass/home.scss */
@@ -730,7 +691,7 @@ footer #logo_footer {
 /* line 107, ../sass/home.scss */
 #about .sticker_container #stay_small_sticker {
   background-image: url('/everydayiplay/img/main/paper-sheet-1.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-1.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-1.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-1.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/paper-sheet-1.png?1367537031') 2x);
   max-width: 281px;
   width: 100%;
   height: 333px;
@@ -757,7 +718,7 @@ footer #logo_footer {
 /* line 120, ../sass/home.scss */
 #about .sticker_container #independent_sticker {
   background-image: url('/everydayiplay/img/main/paper-sheet-2.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-2.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-2.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-2.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/paper-sheet-2.png?1367537031') 2x);
   max-width: 314px;
   width: 100%;
   height: 363px;
@@ -784,7 +745,7 @@ footer #logo_footer {
 /* line 133, ../sass/home.scss */
 #about .sticker_container #top_talent_sticker {
   background-image: url('/everydayiplay/img/main/paper-sheet-3.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-3.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-3.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-3.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/paper-sheet-3.png?1367537031') 2x);
   max-width: 299px;
   width: 100%;
   height: 338px;
@@ -868,29 +829,29 @@ footer #logo_footer {
 
 /* line 186, ../sass/home.scss */
 #games {
-  background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367645562');
+  background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367670088');
   background-position: center top;
   background-repeat: no-repeat;
   height: 750px;
   width: 100%;
   position: relative;
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1070px) {
   /* line 186, ../sass/home.scss */
   #games {
-    background-image: url('/everydayiplay/img/main_tablet/bg-photo5.jpg?1367645586');
+    background-image: url('/everydayiplay/img/main_tablet/bg-photo5.jpg?1367670102');
   }
 }
 @media screen and (max-width: 600px) {
   /* line 186, ../sass/home.scss */
   #games {
-    background-image: url('/everydayiplay/img/main_mobile/bg-photo5.jpg?1367645598');
+    background-image: url('/everydayiplay/img/main_mobile/bg-photo5.jpg?1367706568');
   }
 }
 /* line 199, ../sass/home.scss */
 #games #game_logo {
   background-image: url('/everydayiplay/img/main/game-logo.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/game-logo.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/game-logo.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/game-logo.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/game-logo.png?1367537031') 2x);
   max-width: 685px;
   width: 100%;
   height: 362px;
@@ -905,6 +866,12 @@ footer #logo_footer {
   position: relative;
   top: 75px;
   background-size: contain;
+}
+@media screen and (max-width: 600px) {
+  /* line 199, ../sass/home.scss */
+  #games #game_logo {
+    background-image: -webkit-image-set(url('/everydayiplay/img/main/game-logo.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/game-logo.png?1367670116') 2x);
+  }
 }
 @media screen and (max-width: 1000px) {
   /* line 199, ../sass/home.scss */
@@ -924,7 +891,6 @@ footer #logo_footer {
 /* line 219, ../sass/home.scss */
 #games #tablet {
   background-image: url('/everydayiplay/img/main/ipad.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/ipad.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/ipad.png?1367537031') 2x);
   max-width: 769px;
   width: 100%;
   height: 582px;
@@ -936,10 +902,10 @@ footer #logo_footer {
   background-size: cover;
   float: left;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1070px) {
   /* line 219, ../sass/home.scss */
   #games #tablet {
-    width: 100%;
+    display: none;
   }
 }
 /* line 229, ../sass/home.scss */
@@ -969,14 +935,14 @@ footer #logo_footer {
     float: none;
     margin: auto;
     width: 300px;
-    height: 250px;
+    height: 300px;
     margin-top: -180px;
   }
 }
 /* line 252, ../sass/home.scss */
 #games #schetches #slideshow {
   background-image: url('/everydayiplay/img/main/slide1.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/slide1.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/slide1.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/slide1.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/slide1.png?1367537031') 2x);
   max-width: 383px;
   width: 100%;
   height: 383px;
@@ -988,6 +954,12 @@ footer #logo_footer {
   background-repeat: no-repeat;
   width: 100%;
   background-size: contain;
+}
+@media screen and (max-width: 600px) {
+  /* line 252, ../sass/home.scss */
+  #games #schetches #slideshow {
+    background-image: -webkit-image-set(url('/everydayiplay/img/main/slide1.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/slide1.png?1367670120') 2x);
+  }
 }
 /* line 263, ../sass/home.scss */
 #games #schetches #description {
@@ -1018,11 +990,12 @@ footer #logo_footer {
 #games #shops a {
   display: inline-block;
   margin: 0 5px 0 5px;
+  cursor: default;
 }
 
-/* line 287, ../sass/home.scss */
+/* line 288, ../sass/home.scss */
 #contact {
-  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367645572');
+  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367670092');
   background-position: center top;
   background-repeat: no-repeat;
   height: 750px;
@@ -1031,17 +1004,17 @@ footer #logo_footer {
   z-index: 1;
   position: relative;
 }
-/* line 296, ../sass/home.scss */
+/* line 297, ../sass/home.scss */
 #contact #get_in_touch_pivot {
   margin: auto;
   margin-top: 15px;
   width: 100%;
   height: 50px;
 }
-/* line 302, ../sass/home.scss */
+/* line 303, ../sass/home.scss */
 #contact #get_in_touch {
   background-image: url('/everydayiplay/img/main/hanging_note.png?1367537031');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/hanging_note.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/hanging_note.png?1367537031') 2x);
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/hanging_note.png?1367537031') 1x, url('/everydayiplay/img/main_tablet/hanging_note.png?1367537031') 2x);
   max-width: 505px;
   width: 100%;
   height: 484px;
@@ -1052,13 +1025,19 @@ footer #logo_footer {
   margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
-  /* line 302, ../sass/home.scss */
+  /* line 303, ../sass/home.scss */
+  #contact #get_in_touch {
+    background-image: -webkit-image-set(url('/everydayiplay/img/main/hanging_note.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/hanging_note.png?1367670118') 2x);
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 303, ../sass/home.scss */
   #contact #get_in_touch {
     width: 300px;
     height: 400px;
   }
 }
-/* line 310, ../sass/home.scss */
+/* line 311, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text {
   text-align: center;
   font-family: "AmaticSCRegular", "sans-serif";
@@ -1069,18 +1048,18 @@ footer #logo_footer {
   line-height: 1;
 }
 @media screen and (max-width: 600px) {
-  /* line 310, ../sass/home.scss */
+  /* line 311, ../sass/home.scss */
   #contact #get_in_touch #get_in_touch_text {
     font-size: 1.2em;
     top: 100px;
   }
 }
-/* line 322, ../sass/home.scss */
+/* line 323, ../sass/home.scss */
 #contact #get_in_touch #get_in_touch_text #get_in_touch_title {
   font-size: 3em;
   line-height: 1.4;
 }
-/* line 328, ../sass/home.scss */
+/* line 329, ../sass/home.scss */
 #contact #contact_us {
   width: 264px;
   height: 105px;
@@ -1089,12 +1068,12 @@ footer #logo_footer {
   margin-top: 443px;
 }
 @media screen and (max-width: 600px) {
-  /* line 328, ../sass/home.scss */
+  /* line 329, ../sass/home.scss */
   #contact #contact_us {
     margin-top: 360px;
   }
 }
-/* line 338, ../sass/home.scss */
+/* line 339, ../sass/home.scss */
 #contact #job {
   width: 264px;
   height: 105px;

@@ -151,9 +151,9 @@ $icons-2x: sprite-map("buttons_mobile/*.png", $spacing: 20px);
 
 .buttons-apps_store {
 	@include use-sprite("apps_store");
-	&:hover{ 
+	/*&:hover{ 
 		@include use-sprite("apps_store_hover");	
-	}
+	}*/
 }
 .buttons-contact_us {
 	@include use-sprite("contact_us");
@@ -163,15 +163,15 @@ $icons-2x: sprite-map("buttons_mobile/*.png", $spacing: 20px);
 }
 .buttons-facebook {
 	@include use-sprite("facebook");
-	&:hover{ 
+	/*&:hover{ 
 		@include use-sprite("facebook_hover");	
-	}
+	}*/
 }
 .buttons-google {
 	@include use-sprite("google");
-	&:hover{ 
+	/*&:hover{ 
 		@include use-sprite("google_hover");	
-	}
+	}*/
 }
 .buttons-job {
 	@include use-sprite("job");

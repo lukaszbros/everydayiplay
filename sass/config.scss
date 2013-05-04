@@ -11,6 +11,7 @@ $headerGrey: #1a1a1a;
 
 $containerBase: 1250px;
 $breakBase: 1250px;
+$breakTablet: 1070px;
 $breakLinksToShops: 1070px;
 $breakAbout: 1000px;
 $breakGameDescription: 1000px;
@@ -34,13 +35,20 @@ $fontFamilyAlt: "AmaticSCRegular","sans-serif";
   } 
 }
 
-@mixin image-div($imageAddress) {
+@mixin image-div($imageAddress, $includeTablet:true, $includeMobile:true) {
 	background-image: image-url("main/" + $imageAddress);
-	background-image: -webkit-image-set(image_url("main/" + $imageAddress) 1x, image_url("main_mobile/" + $imageAddress) 2x);
+	@if $includeTablet {
+		background-image: -webkit-image-set(image_url("main/" + $imageAddress) 1x, image_url("main_tablet/" + $imageAddress) 2x);
+	}
 	max-width: image-width("main/" + $imageAddress);
 	width: 100%;
     height: image-height("main/" + $imageAddress);
     background-position:center top;
 	background-repeat:no-repeat; 
 	background-size: contain;
+	@if $includeMobile {
+		@media screen and (max-width: $breakMobile) {
+			background-image: -webkit-image-set(image_url("main/" + $imageAddress) 1x, image_url("main_mobile/" + $imageAddress) 2x);
+		}
+	}
 }
