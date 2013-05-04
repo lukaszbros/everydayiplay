@@ -6,6 +6,12 @@
 
 #company {
 	background-image: image-url('main/bg-photo1.jpg');
+	@media screen and (max-width: $breakBase) {
+		background-image: image-url('main_tablet/bg-photo1.jpg');
+	}
+	@media screen and (max-width: $breakMobile) {
+		background-image: image-url('main_mobile/bg-photo1.jpg');
+	}
 	background-position:center top;
 	background-repeat:no-repeat; 
 	height: 680px;
@@ -179,6 +185,12 @@
 
 #games {
 	background-image: image-url('main/bg-photo5.jpg');	
+	@media screen and (max-width: $breakBase) {
+		background-image: image-url('main_tablet/bg-photo5.jpg');
+	}
+	@media screen and (max-width: $breakMobile) {
+		background-image: image-url('main_mobile/bg-photo5.jpg');
+	}
 	background-position:center top;
 	background-repeat:no-repeat; 
 	height: 750px;

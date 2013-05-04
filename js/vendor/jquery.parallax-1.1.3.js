@@ -19,7 +19,7 @@ http://www.gnu.org/licenses/gpl.html
 		windowHeight = $window.height();
 	});
 
-	$.fn.parallax = function(xpos, speedFactor, outerHeight) {
+	$.fn.parallax = function(xpos, speedFactor, outerHeight, startingOffset) {
 		var $this = $(this);
 		var getHeight;
 		var firstTop;
@@ -27,7 +27,7 @@ http://www.gnu.org/licenses/gpl.html
 		
 		//get the starting position of each element to have parallax applied to it		
 		$this.each(function(){
-		    firstTop = 1500;//$this.offset().top;
+		    firstTop = $this.offset().top - startingOffset;
 		});
 
 		if (outerHeight) {

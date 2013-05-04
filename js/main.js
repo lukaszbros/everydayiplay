@@ -67,8 +67,14 @@
   $('document').ready(function() {
     var animateViking, backgrounId, isVikingAnimated;
     backgrounId = Math.floor((Math.random() * 4) + 1);
-    $('#company').css('background-image', 'url(img/main/bg-photo' + backgrounId + '.jpg)');
-    $('#company').parallax("50%", -0.3);
+    if (document.documentElement.clientWidth < 600) {
+      $('#company').css('background-image', 'url(img/main_mobile/bg-photo' + backgrounId + '.jpg)');
+    } else if (document.documentElement.clientWidth < 1250) {
+      $('#company').css('background-image', 'url(img/main_tablet/bg-photo' + backgrounId + '.jpg)');
+    } else {
+      $('#company').css('background-image', 'url(img/main/bg-photo' + backgrounId + '.jpg)');
+    }
+    $('#company').parallax("50%", -0.3, true, 70);
     animateViking = function() {
       $('#viking').css('display', 'block');
       return $('#viking').animate({
@@ -142,7 +148,7 @@
 
   $('document').ready(function() {
     var slideId;
-    $('#games').parallax("50%", -0.3);
+    $('#games').parallax("50%", -0.3, true, 0);
     slideId = 1;
     return setInterval(function() {
       return $('#slideshow').fadeOut(function() {

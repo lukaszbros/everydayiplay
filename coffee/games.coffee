@@ -1,6 +1,6 @@
 $('document').ready ->
   #paralax
-  $('#games').parallax("50%", -0.3);
+  $('#games').parallax("50%", -0.3, true, 0);
   
   slideId=1
   setInterval(

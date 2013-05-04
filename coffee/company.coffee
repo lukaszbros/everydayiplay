@@ -1,10 +1,15 @@
 $('document').ready ->
   #random background
   backgrounId = Math.floor((Math.random()*4)+1)
-  $('#company').css('background-image','url(img/main/bg-photo' + backgrounId + '.jpg)')
+  if document.documentElement.clientWidth < 600
+    $('#company').css('background-image','url(img/main_mobile/bg-photo' + backgrounId + '.jpg)')
+  else if document.documentElement.clientWidth < 1250
+    $('#company').css('background-image','url(img/main_tablet/bg-photo' + backgrounId + '.jpg)')
+  else
+    $('#company').css('background-image','url(img/main/bg-photo' + backgrounId + '.jpg)')
   
   #paralax
-  $('#company').parallax("50%", -0.3);
+  $('#company').parallax("50%", -0.3, true, 70);
   
   #viking
   animateViking = -> 
