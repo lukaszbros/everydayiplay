@@ -15,4 +15,6 @@ cp *.html release
 cp *.png release
 cp *.html release
 cp *.ico release
+cp .htaccess release
+cp *.txt release
 sed -i s/\'UA-XXXXX-X\'/\'UA-37237992-1\'/g ./release/index.html

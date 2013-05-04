@@ -576,7 +576,7 @@ footer #logo_footer {
 
 /* line 7, ../sass/home.scss */
 #company {
-  background-image: url('/everydayiplay/img/main/bg-photo1.jpg?1367534749');
+  background-image: url('/everydayiplay/img/main/bg-photo1.jpg?1367537031');
   background-position: center top;
   background-repeat: no-repeat;
   height: 680px;
@@ -584,8 +584,8 @@ footer #logo_footer {
 }
 /* line 13, ../sass/home.scss */
 #company #logo {
-  background-image: url('/everydayiplay/img/main/logo.png?1367534753');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo.png?1367534753') 1x, url('/everydayiplay/img/main_mobile/logo.png?1367534760') 2x);
+  background-image: url('/everydayiplay/img/main/logo.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/logo.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/logo.png?1367537031') 2x);
   max-width: 523px;
   width: 100%;
   height: 309px;
@@ -606,8 +606,8 @@ footer #logo_footer {
 }
 /* line 24, ../sass/home.scss */
 #company #viking {
-  background-image: url('/everydayiplay/img/main/viking.png?1367534756');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/viking.png?1367534756') 1x, url('/everydayiplay/img/main_mobile/viking.png?1367534764') 2x);
+  background-image: url('/everydayiplay/img/main/viking.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/viking.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/viking.png?1367537031') 2x);
   max-width: 530px;
   width: 100%;
   height: 287px;
@@ -629,7 +629,7 @@ footer #logo_footer {
 
 /* line 37, ../sass/home.scss */
 #about {
-  background-image: url('/everydayiplay/img/main/wood_pattern.png?1367534756');
+  background-image: url('/everydayiplay/img/main/wood_pattern.png?1367537031');
   height: 750px;
   width: 100%;
   z-index: 1;
@@ -717,8 +717,8 @@ footer #logo_footer {
 }
 /* line 101, ../sass/home.scss */
 #about .sticker_container #stay_small_sticker {
-  background-image: url('/everydayiplay/img/main/paper-sheet-1.png?1367534754');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-1.png?1367534754') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-1.png?1367534761') 2x);
+  background-image: url('/everydayiplay/img/main/paper-sheet-1.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-1.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-1.png?1367537031') 2x);
   max-width: 281px;
   width: 100%;
   height: 333px;
@@ -744,8 +744,8 @@ footer #logo_footer {
 }
 /* line 114, ../sass/home.scss */
 #about .sticker_container #independent_sticker {
-  background-image: url('/everydayiplay/img/main/paper-sheet-2.png?1367534754');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-2.png?1367534754') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-2.png?1367534761') 2x);
+  background-image: url('/everydayiplay/img/main/paper-sheet-2.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-2.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-2.png?1367537031') 2x);
   max-width: 314px;
   width: 100%;
   height: 363px;
@@ -771,8 +771,8 @@ footer #logo_footer {
 }
 /* line 127, ../sass/home.scss */
 #about .sticker_container #top_talent_sticker {
-  background-image: url('/everydayiplay/img/main/paper-sheet-3.png?1367534754');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-3.png?1367534754') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-3.png?1367534762') 2x);
+  background-image: url('/everydayiplay/img/main/paper-sheet-3.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/paper-sheet-3.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/paper-sheet-3.png?1367537031') 2x);
   max-width: 299px;
   width: 100%;
   height: 338px;
@@ -856,7 +856,7 @@ footer #logo_footer {
 
 /* line 180, ../sass/home.scss */
 #games {
-  background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367534751');
+  background-image: url('/everydayiplay/img/main/bg-photo5.jpg?1367537031');
   background-position: center top;
   background-repeat: no-repeat;
   height: 750px;
@@ -865,8 +865,8 @@ footer #logo_footer {
 }
 /* line 187, ../sass/home.scss */
 #games #game_logo {
-  background-image: url('/everydayiplay/img/main/game-logo.png?1367534751');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/game-logo.png?1367534751') 1x, url('/everydayiplay/img/main_mobile/game-logo.png?1367534757') 2x);
+  background-image: url('/everydayiplay/img/main/game-logo.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/game-logo.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/game-logo.png?1367537031') 2x);
   max-width: 685px;
   width: 100%;
   height: 362px;
@@ -899,8 +899,8 @@ footer #logo_footer {
 }
 /* line 207, ../sass/home.scss */
 #games #tablet {
-  background-image: url('/everydayiplay/img/main/ipad.png?1367534753');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/ipad.png?1367534753') 1x, url('/everydayiplay/img/main_mobile/ipad.png?1367534760') 2x);
+  background-image: url('/everydayiplay/img/main/ipad.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/ipad.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/ipad.png?1367537031') 2x);
   max-width: 769px;
   width: 100%;
   height: 582px;
@@ -951,8 +951,8 @@ footer #logo_footer {
 }
 /* line 240, ../sass/home.scss */
 #games #schetches #slideshow {
-  background-image: url('/everydayiplay/img/main/slide1.png?1367534755');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/slide1.png?1367534755') 1x, url('/everydayiplay/img/main_mobile/slide1.png?1367534762') 2x);
+  background-image: url('/everydayiplay/img/main/slide1.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/slide1.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/slide1.png?1367537031') 2x);
   max-width: 383px;
   width: 100%;
   height: 383px;
@@ -998,7 +998,7 @@ footer #logo_footer {
 
 /* line 275, ../sass/home.scss */
 #contact {
-  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367534751');
+  background-image: url('/everydayiplay/img/main/bg-photo6.jpg?1367537031');
   background-position: center top;
   background-repeat: no-repeat;
   height: 750px;
@@ -1016,8 +1016,8 @@ footer #logo_footer {
 }
 /* line 290, ../sass/home.scss */
 #contact #get_in_touch {
-  background-image: url('/everydayiplay/img/main/hanging_note.png?1367534752');
-  background-image: -webkit-image-set(url('/everydayiplay/img/main/hanging_note.png?1367534752') 1x, url('/everydayiplay/img/main_mobile/hanging_note.png?1367534758') 2x);
+  background-image: url('/everydayiplay/img/main/hanging_note.png?1367537031');
+  background-image: -webkit-image-set(url('/everydayiplay/img/main/hanging_note.png?1367537031') 1x, url('/everydayiplay/img/main_mobile/hanging_note.png?1367537031') 2x);
   max-width: 505px;
   width: 100%;
   height: 484px;
